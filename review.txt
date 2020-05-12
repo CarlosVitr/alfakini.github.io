@@ -1,0 +1,5 @@
+        // <link rel="canonical" href="http://alfakini.com/">
+        // <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+        // <link rel="icon" href="/img/favicon.ico">
+//         <meta itemprop="name" content="Alan R. Fachini">
+// <meta itemprop="description" content="Este é o blog pessoal do Alan R. Fachini sobre inteligência artificial, engenharia de software e gestão."></meta>

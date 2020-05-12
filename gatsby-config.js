@@ -1,17 +1,34 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `alf. blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Alan R. Fachini`,
+      summary: `building stuff at Magrathea Labs and Fab Lab Joinville.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `alf. blog`,
+    siteUrl: `https://alfakini.com`,
+    keywords: "software development,software engineering,software,python,ruby,rails,data science,machine learning,manager,music,bycicle,entrepreneur",
     social: {
-      twitter: `kylemathews`,
+      facebook: `alfakini`,
+      github: `alfakini`,
+      goodreads: `https://www.goodreads.com/user/show/10157034-alan`,
+      linkedin: `alfachini`,
+      stackoverflow: `https://stackoverflow.com/users/732973/alfakini`,
+      twitter: `alfakini`,
     },
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        output: "/rss.xml",
+        title: "alf blog's RSS Feed",
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/assets`,
         name: `assets`,
       },
     },
@@ -42,42 +59,42 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              username: 'alfakini',
+              includeDefaultCss: true
+            }
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-9281876-3`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `alf. blog`,
+        short_name: `alf.`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        theme_color: `#3E2767`,
+        display: `alf.`,
+        icon: `assets/logo.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: `src/configs/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
