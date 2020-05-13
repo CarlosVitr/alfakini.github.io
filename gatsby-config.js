@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `alf. blog`,
+    title: `alf.`,
     author: {
       name: `Alan R. Fachini`,
-      summary: `building stuff at Magrathea Labs and Fab Lab Joinville.`,
+      summary: `Written by Alan R. Fachini, founder of Magrathea Labs and Fab Lab Joinville.`,
     },
-    description: `alf. blog`,
+    description: `Written by Alan R. Fachini, founder of Magrathea Labs and Fab Lab Joinville.`,
     siteUrl: `https://alfakini.com`,
     keywords: "software development,software engineering,software,python,ruby,rails,data science,machine learning,manager,music,bycicle,entrepreneur",
     social: {

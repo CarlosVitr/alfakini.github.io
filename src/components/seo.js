@@ -6,12 +6,12 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import PropTypes from "prop-types"
+import { graphql, useStaticQuery } from "gatsby"
 
-const SEO = ({ description, lang, meta, title }) => {
-  const { site } = useStaticQuery(
+const SEO = ({ description, lang, meta, title, location }) => {
+  const { shareImage, site } = useStaticQuery(
     graphql`
       query {
         site {
@@ -33,12 +33,20 @@ const SEO = ({ description, lang, meta, title }) => {
             title
           }
         }
+        shareImage: file(relativePath: { eq: "share4.png" }) {
+          childImageSharp {
+            fixed(width: 1200, height: 630) {
+              src
+            }
+          }
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
   const metaTitle = title || site.siteMetadata.title
+  const metaUrl = `${site.siteMetadata.siteUrl}${location.pathname}`
 
   return (
     <Helmet
@@ -77,29 +85,24 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:url`,
-          content: site.siteMetadata.siteUrl,
+          content: metaUrl,
         },
-
-// <meta property="og:image" content="http://alfakini.com/img/share1.png">
-
-// <meta property="og:image" content="http://alfakini.com/img/share2.png">
-
-// <meta property="og:image" content="http://alfakini.com/img/share3.png">
-
-// <meta property="og:image" content="http://alfakini.com/img/share4.png">
-/* <meta property="og:updated_time" content="2019-07-02T00:01:25-03:00"></meta> */
-        // {
-        //   property: `og:image`,
-        //   content: metaDescription,
-        // },
-        // {
-        //   property: `og:image:width`,
-        //   content: "1200",
-        // },
-        // {
-        //   property: `og:image:height`,
-        //   content: "630",
-        // },
+        {
+          property: `og:updated_time`,
+          content: Date.now(),
+        },
+        {
+          property: `og:image`,
+          content: shareImage.childImageSharp.fixed.src,
+        },
+        {
+          property: `og:image:width`,
+          content: "1200",
+        },
+        {
+          property: `og:image:height`,
+          content: "630",
+        },
         {
           property: `fb:app_id`,
           content: "2341370742766461",
@@ -124,17 +127,17 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-        // {
-        //   name: `twitter:image`,
-        //   content: "http://alfakini.com/img/share1.png",
-        // },
+        {
+          name: `twitter:image`,
+          content: shareImage.childImageSharp.fixed.src,
+        },
         {
           name: `twitter:site`,
           content: "@alfakini",
         },
         {
           name: `twitter:url`,
-          content: site.siteMetadata.siteUrl,
+          content: metaUrl,
         },
       ].concat(meta)}
     />

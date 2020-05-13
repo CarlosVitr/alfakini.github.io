@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-const Layout = ({ _location, title, children }) => {
+const Layout = ({ location, title, description, children }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -27,7 +27,7 @@ const Layout = ({ _location, title, children }) => {
 
   return (
     <div style={style}>
-      <SEO title={`${data.site.siteMetadata.title} - ${title}`} />
+      <SEO location={location} title={`${data.site.siteMetadata.title} - ${title}`} description={description} />
       <Header />
       <main>{children}</main>
       <Footer />

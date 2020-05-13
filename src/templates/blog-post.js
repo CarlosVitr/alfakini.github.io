@@ -3,21 +3,15 @@ import { graphql } from "gatsby"
 
 import { rhythm, scale } from "../configs/typography"
 
-import SEO from "../components/seo"
 import Bio from "../components/bio"
 import Layout from "../layouts/layout"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
   const { _previous, _next } = pageContext
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
+    <Layout location={location} title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}>
       <article>
         <header>
           <h2
@@ -56,11 +50,6 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
