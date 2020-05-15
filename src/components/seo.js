@@ -104,6 +104,10 @@ const SEO = ({ description, lang, meta, title, location }) => {
           content: "630",
         },
         {
+          property: `og:image:alt`,
+          content: metaTitle,
+        },
+        {
           property: `fb:app_id`,
           content: "2341370742766461",
         },
