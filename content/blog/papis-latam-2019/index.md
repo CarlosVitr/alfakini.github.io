@@ -5,7 +5,7 @@ description: "Na Ãºltima semana, entre os dias 24 e 26 de junho, aconteceu em SÃ
 authors: "Alan R. Fachini"
 date: 2019-06-29T21:49:44-03:00
 images: ["posts/papis-latam-2019/images/machine-learning-for-managers.jpg"]
-categories: ["Community", "Machine Learning"]
+categories: ["Community"]
 tags: ["papis", "conferences", "machine learning", "community"]
 ---
 

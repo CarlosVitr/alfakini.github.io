@@ -5,7 +5,7 @@ description: "Tudo aquilo que pensamos, toda ideia, é um modelo do mundo real. 
 authors: "Alan R. Fachini"
 date: 2019-06-02T20:17:13-03:00
 images: ["posts/sistemas-de-ideias/images/raciocinio.png"]
-categories: ["System Theory"]
+categories: ["Essays"]
 tags: ["ideology", "systems theory"]
 ---
 

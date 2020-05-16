@@ -1,6 +1,6 @@
 ---
 title: "O caminho da Servidão - F.A. Hayek"
-slug: "testeo-caminho-da-servidao"
+slug: "o-caminho-da-servidao"
 description: "Em O caminho da Servidão, Hayek discute a liberdade individual e os fundamentos do estado de direito e diferencia o individualismo do coletivismo, que podem ser de esquerda ou de direita."
 authors: "Alan R. Fachini"
 date: 2019-07-02T00:01:25-03:00
