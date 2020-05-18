@@ -28,7 +28,7 @@ Tem ainda o caso IBM, que está [recebendo](http://gizmodo.uol.com.br/por-que-to
 
 Faz um tempo que notáveis têm expressado suas preocupações com os avanços na IA. Recentemente Elon Musk e o Mark Zukemberg discutiram sobre o assunto. Mas não, sistemas inteligentes não são mais [perigosos do que a Coreia do Norte](https://twitter.com/elonmusk/status/896166762361704450)! Imagino que a preocupação do Musk surgiu depois de ver os [avanços na última RoboCup](https://www.youtube.com/watch?v=1h5147KLikU).
 
-[![Funniest dives of RoboCup 2016](http://img.youtube.com/vi/1h5147KLikU/0.jpg)](http://www.youtube.com/watch?v=1h5147KLikU "Funniest dives of RoboCup 2016")
+http://www.youtube.com/watch?v=1h5147KLikU
 
 Brincadeira a parte, acho que existem problemas muito sérios, principalmente do ponto de vista [econômico e político](https://www.whitehouse.gov/sites/whitehouse.gov/files/images/EMBARGOED%20AI%20Economy%20Report.pdf), que precisamos explorar e resolver. Esses problemas são reais, importantes e urgentes.
 
