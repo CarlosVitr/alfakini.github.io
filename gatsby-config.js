@@ -18,15 +18,26 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-twitter`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
         output: "/rss.xml",
         title: "alf blog's RSS Feed",
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.alfakini.com',
+        sitemap: 'https://www.alfakini.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       }
     },
     {
@@ -66,8 +77,11 @@ module.exports = {
               includeDefaultCss: true
             }
           },
-          `gatsby-remark-prismjs`,
+          `gatsby-remark-check-links`,
           `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-embedder`,
+          `gatsby-remark-external-links`,
+          `gatsby-remark-prismjs`,
           `gatsby-remark-smartypants`,
         ],
       },
