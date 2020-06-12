@@ -1,17 +1,17 @@
 ---
-title: "Construindo Conhecimento"
-slug: "como-construir-conhecimento"
-description: "Como contruir conhecimento?"
+title: "Desenvolvendo Conhecimento"
+slug: "desenvolvendo-conhecimento"
+description: "Como desenvolver conhecimento? Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído. Neste artigo falo um pouco sobre o que é conhecimento e como podemos desenvolver ele através de um processo estruturado."
 authors: "Alan R. Fachini"
-date: 2020-06-11T20:17:13-03:00
-images: ["posts/como-construir-conhecimento/images/data-info-knowledge-wisdom-together.jpg"]
+date: 2020-06-12T13:17:13-03:00
+images: ["posts/desenvolvendo-conhecimento/images/data-info-knowledge-wisdom-together.jpg"]
 categories: ["Essays"]
-tags: ["knowledge", "note taking", "organizational theory"]
+tags: ["knowledge", "note taking", "networked thought", "organizational theory"]
 ---
 
 Algo pelo qual estou muito interessado no momento é em como podemos aproveitar toda a informação que temos disponível para gerar conhecimento e entendimento sobre as coisas. Esse interesse foi despertado inicialmente ao ler alguns dos textos do Russell Ackoff, onde ele fala sobre o tema e articula a ideia da diferença entre dados, informação, conhecimento, entendimento e sabedoria.
 
-Outro momento que me faz pensar sobre o tema é quando eu faço uma reflexão sobre anos em que dei aulas de graduação e pós-graduação. Apesar de gostar muito da atividade de lecionar, acredito que não fui um bom professor. Ao dar aulas eu percebi que não importava muito o o que eu fizesse, era inerente de alguns estudantes conseguirem organizar o conteúdo apresentados e construir blocos de conhecimento enquanto outros pareciam sempre confusos. Não era minha habilidade em lecionar que importava, mas a habilidade de cada um em processar o conhecimento.
+Outro momento que me faz pensar sobre o tema é quando eu faço uma reflexão sobre anos em que dei aulas de graduação e pós-graduação. Apesar de gostar muito da atividade de lecionar, acredito que não fui um bom professor. Ao dar aulas eu percebi que não importava muito o o que eu fizesse, era inerente de alguns estudantes conseguirem organizar o conteúdo apresentados e desenvolver blocos de conhecimento enquanto outros pareciam sempre confusos. Não era minha habilidade em lecionar que importava, mas a habilidade de cada um em processar o conhecimento.
 
 Tenho a impressão de que algumas pessoas tem um sistema interno de aprendizagem que facilita transformar a aquisição de conteúdos em conhecimento, e não importa como esses conteúdos são apresentados, essas pessoas conseguem compor conhecimento.
 
@@ -51,9 +51,9 @@ O processo de agrupar dados, informações e conhecimento aumenta o nosso entend
 
 Precisamos aprender então a distinguir o que é um padrão de conhecimento útil do que é ruído. Quando não existem algum fundamento para conectarmos e criarmos padrões, não existe a possibilidade de criar conhecimento, e teremos apenas, ruído.
 
-Existe uma ordem ótima em que os conteúdos podem ser apresentados para que a construção dos padrões seja facilitada, e a função de um professor deveria estruturar essa ordem. O professor não é alguém que "ensina", mas alguém que ordena o conteúdo para facilitar o processo de aprendizagem dos estudantes.
+Existe uma ordem ótima em que os conteúdos podem ser apresentados para que o desenvolvimento dos padrões seja facilitada, e a função de um professor deveria estruturar essa ordem. O professor não é alguém que "ensina", mas alguém que ordena o conteúdo para facilitar o processo de aprendizagem dos estudantes.
 
-Existe uma imagem famosa na internet que demonstra a formação desses padrões. Infelizmente não sei a autoria da imagem, mas ela está frequentemente associada a discussões sobre inteligência artificial e big data. Abaixo, apresento uma versão modificada que criei para demonstrar a construção de entendimento sobre um conteúdo:
+Existe uma imagem famosa na internet que demonstra a formação desses padrões. Infelizmente não sei a autoria da imagem, mas ela está frequentemente associada a discussões sobre inteligência artificial e big data. Abaixo, apresento uma versão modificada que criei para demonstrar o desenvolvimento de entendimento sobre um conteúdo:
 
 ![Data, Information, Knowledge, Wisdom](./images/data-info-knowledge-wisdom.jpg)
 
@@ -69,7 +69,7 @@ Agora que já conceituamos as diferentes categorias de conteúdo, seu valor e co
 
 Podemos dizer que existem duas formas de adquirir sabedoria: vivenciando experiências e ativamente refletindo sobre conteúdos.
 
-Apenas vivenciar situações e ter experiências não é suficiente para adquirirmos sabedoria. Precisamos colocar alguma energia refletindo sobre o que aconteceu, pensando sobre como poderia ter sido melhor e construindo uma estrutura cognitiva coerente. A pessoa que viveu mais geralmente é mais sábia porque durante a vida ela estruturou um arcabouço de tomada de decisões, mas nem todo mundo que é velho é sábio. Para ser sábio é necessário ter passado muito tempo refletindo sobre como se toma decisão.
+Apenas vivenciar situações e ter experiências não é suficiente para adquirirmos sabedoria. Precisamos colocar alguma energia refletindo sobre o que aconteceu, pensando sobre como poderia ter sido melhor e desenvolvendo uma estrutura cognitiva coerente. A pessoa que viveu mais geralmente é mais sábia porque durante a vida ela estruturou um arcabouço de tomada de decisões, mas nem todo mundo que é velho é sábio. Para ser sábio é necessário ter passado muito tempo refletindo sobre como se toma decisão.
 
 > I cannot make you understand. I cannot make anyone understand what is happening inside me. I cannot even explain it to myself. ― [Franz Kafka, The Metamorphosis](https://www.goodreads.com/book/show/485894.The_Metamorphosis)
 
@@ -83,7 +83,7 @@ Se todos nós fazemos parte de um sistema de ideias, a forma de não sermos ref�
 
 > Learning, thinking, and writing should not be about accumulating knowledge, but about becoming a different person with a different way of thinking. This is done by questioning one’s own thinking routines in light of new experiences and facts. ― Sönke Ahrens
 
-Ferramentas que podem ajudar nesse exercício: ler autores com ideias contrárias as suas. Ler autores que reconhecem as limitações de suas próprias ideias. Conversar com pessoas que possuem ideias diferentes. Escutar e refletir sobre as histórias de vida dos outros, ou ler sobre elas. Tirar um momento para refletir sobre suas crenças, princípios e valores. Anotar essas ideias para que você possa construir um entendimento sobre elas.
+Ferramentas que podem ajudar nesse exercício: ler autores com ideias contrárias as suas. Ler autores que reconhecem as limitações de suas próprias ideias. Conversar com pessoas que possuem ideias diferentes. Escutar e refletir sobre as histórias de vida dos outros, ou ler sobre elas. Tirar um momento para refletir sobre suas crenças, princípios e valores. Anotar essas ideias para que você possa desenvolver um entendimento sobre elas.
 
 ## Organizando informações para criar conhecimento
 
@@ -139,7 +139,7 @@ O fato de termos essas anotações indexadas e relacionadas faz com que o nosso 
 
 Outro dia entro em mais detalhes sobre o meu sistema pessoal de organização.
 
-Quando você começa a acumular certa quantidade de anotações, bem indexadas e bem referenciadas, você começa a compor conhecimento. Seu sistema de notas ganha um valor maior do que a soma individual de suas notas. Como essas anotações são processadas e discutidas, a cada nota que você adiciona ao sistema o valor dele cresce. É como se você estivesse construindo um "cérebro externo", uma "segunda mente".
+Quando você começa a acumular certa quantidade de anotações, bem indexadas e bem referenciadas, você começa a compor conhecimento. Seu sistema de notas ganha um valor maior do que a soma individual de suas notas. Como essas anotações são processadas e discutidas, a cada nota que você adiciona ao sistema o valor dele cresce. É como se você estivesse desenvolvendo um "cérebro externo", uma "segunda mente".
 
 Com uma rede de anotações, fica fácil fazer conexões de ideias e obter insights, novas ideias simplesmente emergem. Fica fácil correlacionar conceitos que naturalmente seria difícil de fazer. Você começa a ver coisas que antes ficariam invisíveis. O interessante sobre o sistema de anotações pessoais é que ele tem valor apenas para quem fez as anotações, dado que elas representam de forma explícita o conhecimento implícito da pessoa. Essas anotações ganham valor para outras pessoas quando elas são transformadas em artigos ou outros tipos de escritos públicos.
 
