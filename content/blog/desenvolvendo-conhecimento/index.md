@@ -11,9 +11,9 @@ tags: ["knowledge", "note taking", "networked thought", "organizational theory"]
 
 Algo pelo qual estou muito interessado no momento é em como podemos aproveitar toda a informação que temos disponível para gerar conhecimento e entendimento sobre as coisas. Esse interesse foi despertado inicialmente ao ler alguns dos textos do Russell Ackoff, onde ele fala sobre o tema e articula a ideia da diferença entre dados, informação, conhecimento, entendimento e sabedoria.
 
-Outro momento que me faz pensar sobre o tema é quando eu faço uma reflexão sobre anos em que dei aulas de graduação e pós-graduação. Apesar de gostar muito da atividade de lecionar, acredito que não fui um bom professor. Ao dar aulas eu percebi que não importava muito o o que eu fizesse, era inerente de alguns estudantes conseguirem organizar o conteúdo apresentados e desenvolver blocos de conhecimento enquanto outros pareciam sempre confusos. Não era minha habilidade em lecionar que importava, mas a habilidade de cada um em processar o conhecimento.
+Outro momento que me faz pensar sobre o tema é quando eu faço uma reflexão sobre anos em que dei aulas de graduação e pós-graduação. Apesar de gostar muito da atividade de lecionar, acredito que não fui um bom professor. Ao dar aulas eu percebi que não importava muito o que eu fizesse, era inerente de alguns estudantes conseguirem organizar o conteúdo apresentados e desenvolver blocos de conhecimento enquanto outros pareciam sempre confusos. Não era minha habilidade em lecionar que importava, mas a habilidade de cada um em processar o conhecimento.
 
-Tenho a impressão de que algumas pessoas tem um sistema interno de aprendizagem que facilita transformar a aquisição de conteúdos em conhecimento, e não importa como esses conteúdos são apresentados, essas pessoas conseguem compor conhecimento.
+Tenho a impressão de que algumas pessoas têm um sistema interno de aprendizagem que facilita transformar a aquisição de conteúdos em conhecimento, e não importa como esses conteúdos são apresentados, essas pessoas conseguem compor conhecimento.
 
 Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído.
 
@@ -21,7 +21,7 @@ Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou fora
 
 ## O que é conhecimento?
 
-Russel Ackoff descreve a forma pela qual o conteúdo é organizado na nossa mente da seguinte forma: existem conteúdos para informar, para descrever e para explicar as coisas. Para ele, a sabedoria é a unidade mais importante, que está no topo de tudo isso, já que é por meio dela que fazemos as escolhas que nos levam aonde queremos chegar. Para demonstrar a relação entre as categorias de conteúdo, podemos organiza-los como uma pirâmide, que nos dá também uma noção da quantidade de conteúdo que, de modo geral, consumimos de cada categoria e a importância de cada uma:
+Russel Ackoff descreve a forma pela qual o conteúdo é organizado na nossa mente da seguinte forma: existem conteúdos para informar, para descrever e para explicar as coisas. Para ele, a sabedoria é a unidade mais importante, que está no topo de tudo isso, já que é por meio dela que fazemos as escolhas que nos levam aonde queremos chegar. Para demonstrar a relação entre as categorias de conteúdo, podemos organizá-los como uma pirâmide, que nos dá também uma noção da quantidade de conteúdo que, de modo geral, consumimos de cada categoria e a importância de cada uma:
 
 ![Pirâmide de Ackoff](./images/ackoff-pyramid.jpg)
 
@@ -33,7 +33,7 @@ Mas alcançar a sabedoria não é fácil, nós devemos nos mover sucessivamente 
 
 O que significa cada categoria?
 
-**Dados** são brutos. Simplesmente existe e não tem significado além da sua existência por si só. Pode existir de qualquer forma, utilizável ou não.
+**Dados** são brutos. Simplesmente existem e não tem significado além da sua existência por si só. Podem existir de qualquer forma, utilizáveis ou não.
 
 **Informações** são dados aos quais foram atribuídos significados por meio de relacionamento com outros dados e podem nos ajudar a responder perguntas úteis.
 
@@ -51,7 +51,7 @@ O processo de agrupar dados, informações e conhecimento aumenta o nosso entend
 
 Precisamos aprender então a distinguir o que é um padrão de conhecimento útil do que é ruído. Quando não existem algum fundamento para conectarmos e criarmos padrões, não existe a possibilidade de criar conhecimento, e teremos apenas, ruído.
 
-Existe uma ordem ótima em que os conteúdos podem ser apresentados para que o desenvolvimento dos padrões seja facilitada, e a função de um professor deveria estruturar essa ordem. O professor não é alguém que "ensina", mas alguém que ordena o conteúdo para facilitar o processo de aprendizagem dos estudantes.
+Existe uma ordem ótima em que os conteúdos podem ser apresentados para que o desenvolvimento dos padrões seja facilitado, e a função de um professor deveria estruturar essa ordem. O professor não é alguém que "ensina", mas alguém que ordena o conteúdo para facilitar o processo de aprendizagem dos estudantes.
 
 Existe uma imagem famosa na internet que demonstra a formação desses padrões. Infelizmente não sei a autoria da imagem, mas ela está frequentemente associada a discussões sobre inteligência artificial e big data. Abaixo, apresento uma versão modificada que criei para demonstrar o desenvolvimento de entendimento sobre um conteúdo:
 
@@ -87,11 +87,11 @@ Ferramentas que podem ajudar nesse exercício: ler autores com ideias contrária
 
 ## Organizando informações para criar conhecimento
 
-O conhecimento pode ser categorizado como implícito ou explícito. À medida que adquirimos experiência sobre algo, desenvolvemos habilidades e criamos conhecimento implícito. Ele é implícito porque não é armazenado de alguma forma fácil de ser acessado ou indexado fora do agende que desenvolveu o conhecimento. Já o conhecimento explícito é acessível, pode estar em papel ou em formato digital. Exemplos desse tipo de conhecimento incluem anotações, guias de boas práticas, livros e mapas conceituais.
+O conhecimento pode ser categorizado como implícito ou explícito. À medida que adquirimos experiência sobre algo, desenvolvemos habilidades e criamos conhecimento implícito. Ele é implícito porque não é armazenado de alguma forma fácil de ser acessado ou indexado fora do agente que desenvolveu o conhecimento. Já o conhecimento explícito é acessível, pode estar em papel ou em formato digital. Exemplos desse tipo de conhecimento incluem anotações, guias de boas práticas, livros e mapas conceituais.
 
-Nos anos 1960 viveu um alemão chamado Niklas Luhmann que pode nos fornecer um framework de estruturação de conhecimento. Ele era formado em direito, mas estava mais interessado em estudar sociologia. Todos os dias, depois do trabalho, ele se trancava em sua sala e estudava. Até aí, normal, muitas pessoas têm algum hobbies ao qual se devotam no seu tempo livre. O que é diferente sobre Luhmann é a forma como ele organizava as informações que coletava.
+Nos anos 1960 viveu um alemão chamado Niklas Luhmann que pode nos fornecer um framework de estruturação de conhecimento. Ele era formado em direito, mas estava mais interessado em estudar sociologia. Todos os dias, depois do trabalho, ele se trancava em sua sala e estudava. Até aí, normal, muitas pessoas têm alguns hobbies ao qual se devotam no seu tempo livre. O que é diferente sobre Luhmann é a forma como ele organizava as informações que coletava.
 
-Ele escrevia todas as suas anotações em pequenos pedaços de papel. A organização era simples: ele escrevia o conteúdo da nota no centro do papel e colocava um número de indexação no canto superior esquerdo. Esse número ajudava ele a se referir as suas notas em outras notas. Na parte de trás do papel, ele fazia anotações sobre suas interpretações pessoais.
+Ele escrevia todas as suas anotações em pequenos pedaços de papel. A organização era simples: ele escrevia o conteúdo da nota no centro do papel e colocava um número de indexação no canto superior esquerdo. Esse número o ajudava a se referir as suas notas em outras notas. Na parte de trás do papel, ele fazia anotações sobre suas interpretações pessoais.
 
 ![Luhmann Note](./images/luhmann-note.png)
 
@@ -107,11 +107,11 @@ Ao invés de forçar a escrita com o objetivo de publicar um livro, o sistema de
 
 ### O sistema Zettelkasten
 
-O primeiro passo praticamente qualquer jornada intelectual é fazer anotações sobre o que está se aprendendo. Escrever anotações é fundamental para a maneira como aprendemos, desenvolvemos ideias e, por fim, criamos. Para qualquer trabalhador do conhecimento, sejam desenvolvedores de software, artistas, designers, cientistas ou engenheiros, é fundamental ter um sistema de anotações. Abaixo, um exemplo de como anotações nesse sistema podem se conectar:
+O primeiro passo de praticamente qualquer jornada intelectual é fazer anotações sobre o que está se aprendendo. Escrever anotações é fundamental para a maneira como aprendemos, desenvolvemos ideias e, por fim, criamos. Para qualquer trabalhador do conhecimento, sejam desenvolvedores de software, artistas, designers, cientistas ou engenheiros, é fundamental ter um sistema de anotações. Abaixo, um exemplo de como anotações nesse sistema podem se conectar:
 
 ![Notes Network](./images/notes-network.png)
 
-Não basta apenas tomar notas, precisamos articular as ideias que estamos aprendendo usando nossas próprias palavras e criar conexão com outros conteúdos que já aprendemos. Como vimos, o conhecimento surge a partir da identificação de padrões que emergem de redes de informações. Se isso acontece de forma orgânica dentro da nossa cabeça, porque não replicar esse sistema usando algum sistema analógico ou digital?
+Não basta apenas tomar notas, precisamos articular as ideias que estamos aprendendo usando nossas próprias palavras e criar conexão com outros conteúdos que já aprendemos. Como vimos, o conhecimento surge a partir da identificação de padrões que emergem de redes de informações. Se isso acontece de forma orgânica dentro da nossa cabeça, por que não replicar esse sistema usando algum sistema analógico ou digital?
 
 Foi o que Luhmann fez quando desenvolveu seu sistema de anotações usando pedaços de papéis indexados. As anotações não devem servir apenas como uma maneira de coletar, seu objetivo é promover resultados criativos e inovadores. Com um arquivo de anotações indexadas e comentários sobre o que entendemos sobre aquele pedaço de conteúdo, montamos o nosso Zettlekarten, ou no português: sistema de gerenciamento de conhecimento.
 
@@ -123,7 +123,7 @@ Com as anotações devemos buscar capturar o que nos interessa. Quando você se 
 
 Aprender é trabalhoso. Para aprender algo, dominar certo conteúdo e cultivar uma rede complexa de ideias, precisamos elaborar o que estudamos. Alguns pensadores dizem que o aprendizado não acontece em nossas cabeças, ele acontece quando escrevemos, desenhamos ou criamos qualquer coisa. [Feynman](https://fs.blog/2012/04/feynman-technique/) por exemplo, sempre defendeu que aprender algo significa que você é capaz de apresentar as ideias que está estudando para alguém leigo no assunto. Fazer isso, requer conectar conteúdos diversos, muitas vezes não obviamente relacionados, ou criar abstrações.
 
-Após termos feito anotações nos conteúdos, devemos processar essas anotações para transformá-las em anotações permanentes. Neste passo, devemos usar um sistemas de anotações digital para facilitar a indexação do conteúdo. Ao anotarmos, devemos cuidar para não apenas reformulação em forma mais curta o que lemos ou aprendemos, mas sim conectar essas anotações com ideias e outras anotações que já fizemos. O objetivo não é coletar, mas desenvolver ideias, argumentos e discussões. As notas permanentes são o ponto de partida entre nossas notas do que lemos e nossa eventual produção criativa. Nesse momento, se pergunte: as novas informações contradizem, corrigem, apóiam ou aumentam o que eu já sei? Posso combinar ideias para gerar algo novo? Que perguntas são desencadeadas pelo conteúdo?
+Após termos feito anotações nos conteúdos, devemos processar essas anotações para transformá-las em anotações permanentes. Neste passo, devemos usar um sistema de anotações digital para facilitar a indexação do conteúdo. Ao anotarmos, devemos cuidar para não apenas reformular em forma mais curta o que lemos ou aprendemos, mas sim conectar essas anotações com ideias e outras anotações que já fizemos. O objetivo não é coletar, mas desenvolver ideias, argumentos e discussões. As notas permanentes são o ponto de partida entre nossas notas do que lemos e nossa eventual produção criativa. Nesse momento, se pergunte: as novas informações contradizem, corrigem, apoiam ou aumentam o que eu já sei? Posso combinar ideias para gerar algo novo? Que perguntas são desencadeadas pelo conteúdo?
 
 Escreva exatamente uma nota para cada conteúdo ou aprendizado como se estivesse escrevendo para outra pessoa: use frases completas, apresente as fontes, faça referências e tente ser o mais preciso, claro e breve possível.
 
@@ -131,7 +131,7 @@ No meu sistema de anotações eu uso hashtags para indexar o conteúdo. Tenho, p
 
 ![Note tags](./images/note-tags.png)
 
-Existem alternativas que estão explorando melhor a associação de conteúdos e sistematizando o Zettelkasten. Os dois pelos quais estou interessado são o [Roam Research](https://roamresearch.com/) e o [Obsidian](https://obsidian.md/). Infelizmente o sistema que uso atualmente, baseado no[Bear App](https://bear.app/)  não possuí um sistema de links bidirecionais. Links bidirecionais são interessantes para que você consiga navegar de uma nota para a outra. Ao referenciar uma nota, automaticamente a nota referenciada também cria um link de referência. Isso me da um certo trabalho porque tenho que ficar criando os links manualmente.
+Existem alternativas que estão explorando melhor a associação de conteúdos e sistematizando o Zettelkasten. Os dois pelos quais estou interessado são o [Roam Research](https://roamresearch.com/) e o [Obsidian](https://obsidian.md/). Infelizmente o sistema que uso atualmente, baseado no [Bear App](https://bear.app/), não possui links bidirecionais. Links bidirecionais são interessantes para que você consiga navegar de uma nota para a outra. Ao referenciar uma nota, automaticamente a nota referenciada também cria um link de referência. Isso me da um certo trabalho porque tenho que ficar criando os links manualmente.
 
 O fato de termos essas anotações indexadas e relacionadas faz com que o nosso sistema de processamento de conteúdo comece a nos ajudar a aprender e a criar. Por criar, eu quero dizer: escrever textos originais, compor músicas, fazer arte, rever conceitos. Ele nos ajuda a rapidamente revisitar conteúdo consumido no passado para reativar as memórias. Antes de escrever esse texto que você está lendo, eu fiz uma apresentação informal na empresa sobre sistemas de anotações e "network-thoughts". Para essa apresentação, apenas adicionei a hashtag #@magrathealabs/bbl às notas que eu achei que eram interessantes para o evento:
 
@@ -143,7 +143,7 @@ Quando você começa a acumular certa quantidade de anotações, bem indexadas e
 
 Com uma rede de anotações, fica fácil fazer conexões de ideias e obter insights, novas ideias simplesmente emergem. Fica fácil correlacionar conceitos que naturalmente seria difícil de fazer. Você começa a ver coisas que antes ficariam invisíveis. O interessante sobre o sistema de anotações pessoais é que ele tem valor apenas para quem fez as anotações, dado que elas representam de forma explícita o conhecimento implícito da pessoa. Essas anotações ganham valor para outras pessoas quando elas são transformadas em artigos ou outros tipos de escritos públicos.
 
-Parece contra-intuitivo, mas quando estamos trabalhando com conhecimento, ou qualquer outro tipo de projeto criativo ou complexo, onde não temos uma boa resposta sobre as coisas, faz muito sentido em deixar que as ideias emerjam organicamente a partir de pequenos fragmentos, de baixo para cima, ao invés de tentarmos estabelecer verdades e buscar fragmentos que a validem.
+Parece contra intuitivo, mas quando estamos trabalhando com conhecimento, ou qualquer outro tipo de projeto criativo ou complexo, onde não temos uma boa resposta sobre as coisas, faz muito sentido em deixar que as ideias emerjam organicamente a partir de pequenos fragmentos, de baixo para cima, ao invés de tentarmos estabelecer verdades e buscar fragmentos que a validem.
 
 A medida que o sistema cresce, você vai criando novos mecanismos de organização. Para quem desenvolve software, o processo é similar ao de refatorar um sistema. Não temos como planejar e construir o sistema perfeito a priori, mas podemos usar um processo de desenvolvimento que nos ajuda a chegar no melhor sistema possível, um passo por vez.
 
