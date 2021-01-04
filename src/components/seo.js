@@ -1,63 +1,32 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import Helmet from "react-helmet"
 import PropTypes from "prop-types"
-import { graphql, useStaticQuery } from "gatsby"
+
+import { useLogo } from "../hooks/site-logo"
+import { useShareImages } from "../hooks/site-share-images"
+import { useSiteMetadata } from "../hooks/site-metadata"
 
 const SEO = ({ description, lang, meta, title, location }) => {
-  const { shareImage, site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            author {
-              name
-              summary
-            }
-            description
-            siteUrl
-            social {
-              facebook
-              github
-              goodreads
-              linkedin
-              stackoverflow
-              twitter
-            }
-            title
-          }
-        }
-        shareImage: file(relativePath: { eq: "share4.png" }) {
-          childImageSharp {
-            fixed(width: 1200, height: 630) {
-              src
-            }
-          }
-        }
-      }
-    `
-  )
+  const logoImage = useLogo()
+  const shareImage = useShareImages()
+  const siteMetadata = useSiteMetadata()
 
-  const metaDescription = description || site.siteMetadata.description
-  const metaTitle = title || site.siteMetadata.title
-  const metaUrl = `${site.siteMetadata.siteUrl}${location.pathname}`
+  const metaAuthor = siteMetadata.author.name
+  const metaDescription = description || siteMetadata.description
+  const metaKeywords = siteMetadata.keywords
+  const metaTitle = title || siteMetadata.title
+  const metaUrl = `${siteMetadata.siteUrl}${location.pathname}`
 
   return (
     <Helmet
-      htmlAttributes={{lang}}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
       charSet="utf-8"
+      htmlAttributes={{lang}}
+      title={metaTitle}
+      titleTemplate={metaTitle}
       meta={[
         {
           name: `author`,
-          content: site.siteMetadata.author.name,
+          content: metaAuthor,
         },
         {
           name: `description`,
@@ -65,7 +34,11 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           name: `keywords`,
-          content: site.siteMetadata.keywords,
+          content: metaKeywords,
+        },
+        {
+          property: `image`,
+          content: shareImage.src,
         },
         {
           property: `og:title`,
@@ -73,7 +46,7 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           property: `og:site_name`,
-          content: site.siteMetadata.title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -93,7 +66,7 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           property: `og:image`,
-          content: shareImage.childImageSharp.fixed.src,
+          content: shareImage.src,
         },
         {
           property: `og:image:width`,
@@ -109,11 +82,11 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           property: `fb:app_id`,
-          content: "2341370742766461",
+          content: siteMetadata.socialUsers.facebook_app_id,
         },
         {
           property: `fb:admins`,
-          content: "100000496399542",
+          content: siteMetadata.socialUsers.facebook_admins,
         },
         {
           name: `twitter:card`,
@@ -121,7 +94,7 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
+          content: siteMetadata.socialUsers.twitter,
         },
         {
           name: `twitter:title`,
@@ -133,25 +106,55 @@ const SEO = ({ description, lang, meta, title, location }) => {
         },
         {
           name: `twitter:image`,
-          content: shareImage.childImageSharp.fixed.src,
+          content: shareImage.src,
         },
         {
           name: `twitter:site`,
-          content: "@alfakini",
+          content: `@${siteMetadata.socialUsers.twitter}`,
         },
         {
           name: `twitter:url`,
           content: metaUrl,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">{JSON.stringify(
+        [
+          {
+            '@context': 'http://schema.org',
+            '@type': 'WebSite',
+            url: metaUrl,
+            name: metaTitle,
+            alternateName: metaTitle,
+            headline: metaTitle,
+            image: {
+              '@type': 'ImageObject',
+              url: shareImage.src,
+            },
+            description: metaDescription,
+            author: {
+              '@type': 'Person',
+              name: metaAuthor,
+            },
+            publisher: {
+              '@type': 'Organization',
+              url: siteMetadata.siteUrl,
+              logo: logoImage,
+              name: metaAuthor,
+            },
+          },
+        ]
+      )}</script>
+    </Helmet>
   )
 }
 
 SEO.defaultProps = {
+  description: ``,
   lang: `en`,
   meta: [],
-  description: ``,
+  title: ``,
+  location: `/`,
 }
 
 SEO.propTypes = {
@@ -159,6 +162,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  location: PropTypes.string,
 }
 
 export default SEO

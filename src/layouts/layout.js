@@ -1,37 +1,32 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-
-import { rhythm } from "../configs/typography"
 
 import SEO from "../components/seo"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-const Layout = ({ location, title, description, children }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+import { useSiteMetadata } from "../hooks/site-metadata"
 
-  const style = {
-      marginLeft: `auto`,
-      marginRight: `auto`,
-      maxWidth: rhythm(24),
-      padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-    }
+const Layout = ({ location, title, description, children }) => {
+  const siteMetadata = useSiteMetadata()
+
+  const styleMain = {
+    marginLeft: `auto`,
+    marginRight: `auto`,
+    maxWidth: 840,
+    padding: `0 26px`,
+  }
 
   return (
-    <div style={style}>
-      <SEO location={location} title={`${data.site.siteMetadata.title} - ${title}`} description={description} />
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <React.Fragment>
+      <SEO location={location} title={`${siteMetadata.title} - ${title}`} description={description} />
+      <div>
+        <Header />
+        <main style={styleMain}>
+          {children}
+        </main>
+        <Footer />
+      </div>
+    </React.Fragment>
   )
 }
 

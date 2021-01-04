@@ -1,21 +1,35 @@
 module.exports = {
   siteMetadata: {
-    title: `alf.`,
+    title: `alfakini`,
     author: {
       name: `Alan R. Fachini`,
       summary: `Written by Alan R. Fachini, founder of Magrathea Labs and Fab Lab Joinville.`,
     },
     description: `Written by Alan R. Fachini, founder of Magrathea Labs and Fab Lab Joinville.`,
     siteUrl: `https://alfakini.com`,
-    keywords: "software development,software engineering,software,python,ruby,rails,data science,machine learning,manager,music,bycicle,entrepreneur",
-    social: {
-      facebook: `alfakini`,
-      github: `alfakini`,
-      goodreads: `https://www.goodreads.com/user/show/10157034-alan`,
-      linkedin: `alfachini`,
-      stackoverflow: `https://stackoverflow.com/users/732973/alfakini`,
+    rssUrl: `https://alfakini.com/rss.xml`,
+    keywords: "software development,software engineering,software,tecnology,blockchain,bitcoin,ethereum,rust,python,ruby,rails,data science,machine learning,management,entrepreneurship,ntrepreneur",
+    socialUsers: {
       twitter: `alfakini`,
+      instagram: `alfachini`,
+      facebook: `alfakini`,
+      facebook_app_id: `2341370742766461`,
+      facebook_admins: `100000496399542`,
+      github: `alfakini`,
+      linkedin: `alfachini`,
+      goodreads: `10157034-alan`,
+      stackoverflow: `732973/alfakini`,
+      discogs: `alfakini`
     },
+    socialLinks: {
+      twitter: `https://twitter.com/alfakini`,
+      instagram: `https://instagram.com/alfachini`,
+      github: `https://github.com/alfakini`,
+      linkedin: `https://www.linkedin.com/in/alfachini`,
+      goodreads: `https://www.goodreads.com/user/show/10157034-alan"`,
+      stackoverflow: `https://stackoverflow.com/users/732973/alfakini`,
+      discogs: `https://www.discogs.com/user/alfakini`,
+    }
   },
   plugins: [
     `gatsby-plugin-offline`,
@@ -29,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-feed`,
       options: {
         output: "/rss.xml",
-        title: "alf blog's RSS Feed",
+        title: "alfakini blog's RSS Feed",
       }
     },
     {
@@ -41,10 +55,31 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/notes`,
+        name: 'Notes',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/essays`,
+        name: 'Essays',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/books`,
+        name: 'Books',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/papers`,
+        name: 'Papers',
       },
     },
     {
@@ -95,12 +130,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `alf. blog`,
-        short_name: `alf.`,
+        name: `alfakini blog`,
+        short_name: `alfakini`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3E2767`,
-        display: `alf.`,
+        display: `browser`,
         icon: `assets/logo.png`,
       },
     },
