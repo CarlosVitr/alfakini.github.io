@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:150%/1.45 'FreightText W01 Book',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:#334259;font-family:'FreightText W01 Book',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.4;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.4;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.4;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.4;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.4;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:#121F35;font-family:'GT Walsheim Regular',sans-serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.4;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.725rem;line-height:1.8em;font-size:1.015rem;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:0.85rem;line-height:1.45rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}blockquote{margin-left:1.45rem;margin-right:1.45rem;margin-top:0;padding-bottom:0;padding-left:0.4785rem;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-style:italic;color:#454963;border-left:0.4785rem solid #134896;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.45rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.45rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}li > ul{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.45rem / 2);}code{font-size:0.85rem;line-height:1.45rem;}kbd{font-size:0.85rem;line-height:1.45rem;}samp{font-size:0.85rem;line-height:1.45rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h1,h2,h3,h4,h5,h6{font-family:GT Walsheim Regular;letter-spacing:normal;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}a{color:#134896;text-decoration:none;text-shadow:none;background-image:none;}a:hover,a:active{text-shadow:.03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff;background-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #134896 1px, #134896 2px, rgba(0, 0, 0, 0) 2px);}a.gatsby-resp-image-link{box-shadow:none;}blockquote cite{font-size:1rem;line-height:1.45rem;color:#334259;font-style:normal;font-weight:400;}blockquote cite:before{content:"— ";}.sans{font-family:GT Walsheim Regular;}</style><style data-href="/styles.21fe9a5cefaa9af1dd03.css" id="gatsby-global-css">@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap);code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}@font-face{font-family:GT Walsheim Regular;font-weight:400;src:url(/static/GT-Walsheim-Pro-Regular-c574ac0c42344dc5bdc0aebe018ad9fa.woff) format("woff");font-display:auto}@font-face{font-family:GT Walsheim Bold;font-weight:700;src:url(/static/GT-Walsheim-Pro-Bold-0076c7808c330a0be24a2457e857ddcc.woff) format("woff");font-display:auto}@font-face{font-family:GT Walsheim Light;font-weight:200;src:url(/static/GT-Walsheim-Pro-Light-7fb84aabb55d5f207eba7dc3546ff28e.woff) format("woff");font-display:auto}@font-face{font-family:Freight Sans W03 Light;src:url(/static/Freight-Sans-W03-Light-2bbba9fd8ca5e556987208a690c46002.woff2) format("woff2"),url(/static/Freight-Sans-W03-Light-dccc4cb8530043b55302c9ed47226564.woff) format("woff")}@font-face{font-family:Freight-Sans-W03-Book;src:url(/static/Freight-Sans-W03-Book-100da05a0201d8073337bb203e99cf3e.woff2) format("woff2"),url(/static/Freight-Sans-W03-Book-bff24b360bf341c95f053ee703176840.woff) format("woff")}@font-face{font-family:Freight Sans W03 Book Italic;src:url(/static/Freight-Sans-W03-Book-Italic-154a5ba86b75880c3e816752dcc090ee.woff2) format("woff2"),url(/static/Freight-Sans-W03-Book-Italic-fcb8e8787ccdcc4d84da95306a4299b2.woff) format("woff")}@font-face{font-family:Freight Sans W03 Bold;src:url(/static/Freight-Sans-W03-Bold-9d63c4fe01f9be84ae08f75c76de273d.woff2) format("woff2"),url(/static/Freight-Sans-W03-Bold-68ebf9176bacce66df88b9fba51d2c5b.woff) format("woff")}@font-face{font-family:FreightText W01 Book;src:url(/static/FreightText-W01-Book-dfa8496732e0d9752f7532adb68984ef.woff2) format("woff2"),url(/static/FreightText-W01-Book-62f77879b7d7426071c039d085e587b2.woff) format("woff")}@font-face{font-family:FreightText W01 Book Italic;src:url(/static/FreightText-W01-Book-Italic-a6e83944d8f7b798471dd4ecd09ca845.woff2) format("woff2"),url(/static/FreightText-W01-Book-Italic-a48d560b0ace8c872e710dae9a463505.woff) format("woff")}@font-face{font-family:FreightText W01 Bold;src:url(/static/FreightText-W01-Bold-6701778d18d8af56a6af51cbf030b137.woff2) format("woff2"),url(/static/FreightText-W01-Bold-efa6ddf035853752032b594745df5653.woff) format("woff")}@font-face{font-family:FreightText W01 Bold Italic;src:url(/static/FreightText-W01-Bold-Italic-b0f63caccd862f98159824759cd00d20.woff2) format("woff2"),url(/static/FreightText-W01-Bold-Italic-9f3803cb38e0d7913bc36c1f944acc7f.woff) format("woff")}</style><meta name="generator" content="Gatsby 2.29.3"/><title data-react-helmet="true">alfakini - Desenvolvendo Conhecimento</title><meta data-react-helmet="true" name="author" content="Alan R. Fachini"/><meta data-react-helmet="true" name="description" content="Como desenvolver conhecimento? Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído. Neste artigo falo um pouco sobre o que é conhecimento e como podemos desenvolver ele através de um processo estruturado."/><meta data-react-helmet="true" name="keywords" content="software development,software engineering,software,tecnology,blockchain,bitcoin,ethereum,rust,python,ruby,rails,data science,machine learning,management,entrepreneurship,ntrepreneur"/><meta data-react-helmet="true" property="image" content="/static/b8f3d5837f8bf3811eb2b5f2c372b3a0/3b869/share4.png"/><meta data-react-helmet="true" property="og:title" content="alfakini - Desenvolvendo Conhecimento"/><meta data-react-helmet="true" property="og:site_name" content="alfakini - Desenvolvendo Conhecimento"/><meta data-react-helmet="true" property="og:description" content="Como desenvolver conhecimento? Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído. Neste artigo falo um pouco sobre o que é conhecimento e como podemos desenvolver ele através de um processo estruturado."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:url" content="https://alfakini.com/essays/desenvolvendo-conhecimento/"/><meta data-react-helmet="true" property="og:updated_time" content="1611621392254"/><meta data-react-helmet="true" property="og:image" content="/static/b8f3d5837f8bf3811eb2b5f2c372b3a0/3b869/share4.png"/><meta data-react-helmet="true" property="og:image:width" content="1200"/><meta data-react-helmet="true" property="og:image:height" content="630"/><meta data-react-helmet="true" property="og:image:alt" content="alfakini - Desenvolvendo Conhecimento"/><meta data-react-helmet="true" property="fb:app_id" content="2341370742766461"/><meta data-react-helmet="true" property="fb:admins" content="100000496399542"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:creator" content="alfakini"/><meta data-react-helmet="true" name="twitter:title" content="alfakini - Desenvolvendo Conhecimento"/><meta data-react-helmet="true" name="twitter:description" content="Como desenvolver conhecimento? Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído. Neste artigo falo um pouco sobre o que é conhecimento e como podemos desenvolver ele através de um processo estruturado."/><meta data-react-helmet="true" name="twitter:image" content="/static/b8f3d5837f8bf3811eb2b5f2c372b3a0/3b869/share4.png"/><meta data-react-helmet="true" name="twitter:site" content="@alfakini"/><meta data-react-helmet="true" name="twitter:url" content="https://alfakini.com/essays/desenvolvendo-conhecimento/"/><script data-react-helmet="true" type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","url":"https://alfakini.com/essays/desenvolvendo-conhecimento/","name":"alfakini - Desenvolvendo Conhecimento","alternateName":"alfakini - Desenvolvendo Conhecimento","headline":"alfakini - Desenvolvendo Conhecimento","image":{"@type":"ImageObject","url":"/static/b8f3d5837f8bf3811eb2b5f2c372b3a0/3b869/share4.png"},"description":"Como desenvolver conhecimento? Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído. Neste artigo falo um pouco sobre o que é conhecimento e como podemos desenvolver ele através de um processo estruturado.","author":{"@type":"Person","name":"Alan R. Fachini"},"publisher":{"@type":"Organization","url":"https://alfakini.com","logo":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeElEQVQ4y51Uz28TRxSetgfiH403tnfXP4h6oST8lBCpONBGJSc4FCKUf4CqanOBRMANG5ByoahFygGLA0gml9o3BIccCgVXoATRRIqEoyQqEcUklyhRIsXe3ZmdebwZ77qptYe2I41mdmfmm+99875HIKAJr+2ce5/AOReu6wrRtuBPSTvQ34vN0QNoAbVfjr//cY4EMZIHGWMSpHWXP1ldXWXlUtmR25jc5K3554kHoA7jeis0r7k3bvxoXb50ufHX27fW8vKy9eXxr5xopFOc+HrA7Tv6hZvP5S1JVJ5rMfRu8enwBw8eOrcLd2ixeL++d+9+umtXGAZODNi9vftoPJ6ATGY3xGJdqnd2xtzZ2VnqsQSCzPjNmz85Z06fpXfv3qPnL4zSSGcXD0U1oXXpQjcykMl+JhJxA3TdhHQ6I0wzJVKptJDAoVBE/F6puBLQsixOcrmrlJCP+OlvBiGfvyb2fN4LH3/SAbqZFelMNxg4JvW0Gk0zLQzDlB2ao4EsNbdSqdD7xaIzPj5uk2/PfWc/e/qMbmxsSIHh1as/RA6Bj/YdE/GEiSC7AVmKZDKF3VQsdV2y1fFbB03TxPDwcKP0S8leW1vjBGm6K+/fs9q7Gq/X60qK+fl5uHb1utA01CudBWSGjFKQTBoIYoAEQnYiHI7A0NAQ25kFxLZtIRlubW2BbVni+fMXIpFArVLdqFMGUqYKD1maCiyR0LEnBTIEQggMDg7Sl9MvWeF2warVapRUX1cZvpJ64cXFRThypA+6NF0YqJuup5pgumImJJgcY7E4hhpn/f397NbPt+jExIQzNTXFZP6SarVKFxYWRH17m+eu5J1QKKpeD0NEFqbqMjwdgeTrYprAgQMH3bm5OctxHNbuHNJoNPj09LSzurJCUVgaDkdFGnVrsjGVdrFYDDTMuVAoLMPkkpHna2UGycz3t0ps1FGF/OjhIxqNfMolq2y2m2Pi8o6OsDh06DDr6elxT548xcrlskzilr/brUt2VhJ8XfbD98P2xYuXnFKpRJ88+Q3dUqQyYbdREt9Nvs12ergVsvzX9DiI0dFRKo0/NjZmr6+v84Cy5vs9EEwB+rSXlpbYyMiIPTk56RQKBaURii58gKD6F1RLW4AzMzP0zZ9v2ONfH1ubm5s8qKzBv2gkYLNoL7bwHxoJKvX/F0y2DxMMw1B3c3V5AAAAAElFTkSuQmCC","width":50,"height":50,"src":"/static/95a102028e3f55d2574ebb4a91198458/8ba1e/logo.png","srcSet":"/static/95a102028e3f55d2574ebb4a91198458/8ba1e/logo.png 1x,\n/static/95a102028e3f55d2574ebb4a91198458/f937a/logo.png 1.5x,\n/static/95a102028e3f55d2574ebb4a91198458/71eb7/logo.png 2x"},"name":"Alan R. Fachini"}}]</script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css" rel="stylesheet"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="icon" href="/favicon-32x32.png?v=95a102028e3f55d2574ebb4a91198458" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#3E2767"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=95a102028e3f55d2574ebb4a91198458"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=95a102028e3f55d2574ebb4a91198458"/><link as="script" rel="preload" href="/webpack-runtime-5c74b6c09eac3c166434.js"/><link as="script" rel="preload" href="/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/framework-cd3e1e804d552fa282ef.js"/><link as="script" rel="preload" href="/app-0fe2b0a74c0fe06ff414.js"/><link as="script" rel="preload" href="/c6c75317a5eb8a1474f3965d23c26c44c47412b2-30b0a902673079669494.js"/><link as="script" rel="preload" href="/component---src-templates-essay-template-js-518212fbe86614499990.js"/><link as="fetch" rel="preload" href="/page-data/essays/desenvolvendo-conhecimento/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1573948755.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2077707862.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3569324193.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/857530042.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><header style="margin:0 auto;max-width:1200px;padding:52px 0"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin:0 10px 0 20px;vertical-align:middle"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeElEQVQ4y51Uz28TRxSetgfiH403tnfXP4h6oST8lBCpONBGJSc4FCKUf4CqanOBRMANG5ByoahFygGLA0gml9o3BIccCgVXoATRRIqEoyQqEcUklyhRIsXe3ZmdebwZ77qptYe2I41mdmfmm+99875HIKAJr+2ce5/AOReu6wrRtuBPSTvQ34vN0QNoAbVfjr//cY4EMZIHGWMSpHWXP1ldXWXlUtmR25jc5K3554kHoA7jeis0r7k3bvxoXb50ufHX27fW8vKy9eXxr5xopFOc+HrA7Tv6hZvP5S1JVJ5rMfRu8enwBw8eOrcLd2ixeL++d+9+umtXGAZODNi9vftoPJ6ATGY3xGJdqnd2xtzZ2VnqsQSCzPjNmz85Z06fpXfv3qPnL4zSSGcXD0U1oXXpQjcykMl+JhJxA3TdhHQ6I0wzJVKptJDAoVBE/F6puBLQsixOcrmrlJCP+OlvBiGfvyb2fN4LH3/SAbqZFelMNxg4JvW0Gk0zLQzDlB2ao4EsNbdSqdD7xaIzPj5uk2/PfWc/e/qMbmxsSIHh1as/RA6Bj/YdE/GEiSC7AVmKZDKF3VQsdV2y1fFbB03TxPDwcKP0S8leW1vjBGm6K+/fs9q7Gq/X60qK+fl5uHb1utA01CudBWSGjFKQTBoIYoAEQnYiHI7A0NAQ25kFxLZtIRlubW2BbVni+fMXIpFArVLdqFMGUqYKD1maCiyR0LEnBTIEQggMDg7Sl9MvWeF2warVapRUX1cZvpJ64cXFRThypA+6NF0YqJuup5pgumImJJgcY7E4hhpn/f397NbPt+jExIQzNTXFZP6SarVKFxYWRH17m+eu5J1QKKpeD0NEFqbqMjwdgeTrYprAgQMH3bm5OctxHNbuHNJoNPj09LSzurJCUVgaDkdFGnVrsjGVdrFYDDTMuVAoLMPkkpHna2UGycz3t0ps1FGF/OjhIxqNfMolq2y2m2Pi8o6OsDh06DDr6elxT548xcrlskzilr/brUt2VhJ8XfbD98P2xYuXnFKpRJ88+Q3dUqQyYbdREt9Nvs12ergVsvzX9DiI0dFRKo0/NjZmr6+v84Cy5vs9EEwB+rSXlpbYyMiIPTk56RQKBaURii58gKD6F1RLW4AzMzP0zZ9v2ONfH1ubm5s8qKzBv2gkYLNoL7bwHxoJKvX/F0y2DxMMw1B3c3V5AAAAAElFTkSuQmCC" alt="alfakini" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/95a102028e3f55d2574ebb4a91198458/8ba1e/logo.png 1x,
+/static/95a102028e3f55d2574ebb4a91198458/f937a/logo.png 1.5x,
+/static/95a102028e3f55d2574ebb4a91198458/71eb7/logo.png 2x" /><img loading="lazy" width="50" height="50" srcset="/static/95a102028e3f55d2574ebb4a91198458/8ba1e/logo.png 1x,
+/static/95a102028e3f55d2574ebb4a91198458/f937a/logo.png 1.5x,
+/static/95a102028e3f55d2574ebb4a91198458/71eb7/logo.png 2x" src="/static/95a102028e3f55d2574ebb4a91198458/8ba1e/logo.png" alt="alfakini" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><h1 style="font-size:20px;display:inline-block;margin:0">alfakini</h1><ul style="float:right;margin-top:5px"><li style="display:inline-block"><a class="sans" style="font-size:20px;margin-right:20px" href="/essays">Essays</a></li><li style="display:inline-block"><a class="sans" style="font-size:20px;margin-right:20px" href="/library">Biblioteca</a></li></ul></header><main style="margin-left:auto;margin-right:auto;max-width:840px;padding:0 26px"><article><header><h1 style="text-align:center;margin-bottom:0">Desenvolvendo Conhecimento</h1><p class="sans" style="display:block;text-align:center;font-size:20px">June 12, 2020</p></header><section><p>Algo pelo qual estou muito interessado no momento é em como podemos aproveitar toda a informação que temos disponível para gerar conhecimento e entendimento sobre as coisas. Esse interesse foi despertado inicialmente ao ler alguns dos textos do Russell Ackoff, onde ele fala sobre o tema e articula a ideia da diferença entre dados, informação, conhecimento, entendimento e sabedoria.</p>
+<p>Outro momento que me faz pensar sobre o tema é quando eu faço uma reflexão sobre anos em que dei aulas de graduação e pós-graduação. Apesar de gostar muito da atividade de lecionar, acredito que não fui um bom professor. Ao dar aulas eu percebi que não importava muito o que eu fizesse, era inerente de alguns estudantes conseguirem organizar o conteúdo apresentados e desenvolver blocos de conhecimento enquanto outros pareciam sempre confusos. Não era minha habilidade em lecionar que importava, mas a habilidade de cada um em processar o conhecimento.</p>
+<p>Tenho a impressão de que algumas pessoas têm um sistema interno de aprendizagem que facilita transformar a aquisição de conteúdos em conhecimento, e não importa como esses conteúdos são apresentados, essas pessoas conseguem compor conhecimento.</p>
+<p>Enquanto algumas pessoas criaram seus próprios métodos de aprendizagem ou foram incentivadas a seguir alguns hábitos, outras simplesmente tratam o conteúdo como partes isoladas, e não conseguem organizar ele para que algo com mais valor seja extraído.</p>
+<blockquote>
+<p>Most of the time spent in school is devoted to the transmission of information and ways of obtaining it. Less time is devoted to the transmission of knowledge and ways of obtaining it (analytic thinking). Virtually no time is spent in transmitting understanding or ways of obtaining it (synthetic thinking). Furthermore, the distinction between data, information, and so on up to wisdom are seldom made in the educational process, leaving students unaware of their ignorance. They not only don’t know, they don’t know what they don’t know. <cite>Russell Ackoff</cite></p>
+</blockquote>
+<h4>O que é conhecimento?</h4>
+<p>Russel Ackoff descreve a forma pela qual o conteúdo é organizado na nossa mente da seguinte forma: existem conteúdos para informar, para descrever e para explicar as coisas. Para ele, a sabedoria é a unidade mais importante, que está no topo de tudo isso, já que é por meio dela que fazemos as escolhas que nos levam aonde queremos chegar. Para demonstrar a relação entre as categorias de conteúdo, podemos organizá-los como uma pirâmide, que nos dá também uma noção da quantidade de conteúdo que, de modo geral, consumimos de cada categoria e a importância de cada uma:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4896ea0ce2510e6014871f7608a4a717/39978/ackoff-pyramid.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 89.86486486486487%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIDAQQF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB71U4lyI1MgB//8QAGhABAQACAwAAAAAAAAAAAAAAAQACERAhMf/aAAgBAQABBQJdGPXHrDuFtsN//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxABAQEBAAAAAAAAAAAAAAAAADEBIP/aAAgBAQAGPwLqq1//xAAfEAACAQMFAQAAAAAAAAAAAAAAAREhMWEQQVFxkbH/2gAIAQEAAT8hqBWh7/dG+hYIlcEAgXemQMmp3P/aAAwDAQACAAMAAAAQwAcA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIRABAAEEAQQDAAAAAAAAAAAAAREAMUFRIRBhgZGhweH/2gAIAQEAAT8QmLnBtpLsRzneXv66TMTZuZfyhIXYYWGolhGyaaEYHly3SVg80n5J2K//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Pirâmide de Ackoff"
+        title="Pirâmide de Ackoff"
+        src="/static/4896ea0ce2510e6014871f7608a4a717/1c72d/ackoff-pyramid.jpg"
+        srcset="/static/4896ea0ce2510e6014871f7608a4a717/a80bd/ackoff-pyramid.jpg 148w,
+/static/4896ea0ce2510e6014871f7608a4a717/1c91a/ackoff-pyramid.jpg 295w,
+/static/4896ea0ce2510e6014871f7608a4a717/1c72d/ackoff-pyramid.jpg 590w,
+/static/4896ea0ce2510e6014871f7608a4a717/a8a14/ackoff-pyramid.jpg 885w,
+/static/4896ea0ce2510e6014871f7608a4a717/fbd2c/ackoff-pyramid.jpg 1180w,
+/static/4896ea0ce2510e6014871f7608a4a717/39978/ackoff-pyramid.jpg 4222w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Ackoff indica que as quatro primeiras categorias se relacionam com o passado, elas lidam com o que é conhecido. Somente a quinta categoria, sabedoria, lida com o futuro, porque incorpora visão pessoal, escolhas. Com sabedoria, as pessoas podem criar o futuro, em vez de apenas compreender o presente e o passado.</p>
+<p>Mas alcançar a sabedoria não é fácil, nós devemos nos mover sucessivamente pelas outras categorias. Criar sabedoria é um exercício contínuo de processar os conteúdos das categorias abaixo. A imagem acima nos mostra que dados são abundantes, mas a sabedoria é escassa. Nós tropeçamos em dados, mas precisamos de muito esforço cognitivo para criar sabedoria.</p>
+<blockquote>
+<p>An ounce of information is worth a pound of data. An ounce of knowledge is worth a pound of information. An ounce of understanding is worth a pound of knowledge. <cite>Russell Ackoff</cite></p>
+</blockquote>
+<p>O que significa cada categoria?</p>
+<p><strong>Dados</strong> são brutos. Simplesmente existem e não tem significado além da sua existência por si só. Podem existir de qualquer forma, utilizáveis ou não.</p>
+<p><strong>Informações</strong> são dados aos quais foram atribuídos significados por meio de relacionamento com outros dados e podem nos ajudar a responder perguntas úteis.</p>
+<p><strong>Conhecimento</strong> é criado com a relação apropriada de informações. O conhecimento é um processo determinístico: dado x, então y. O conhecimento tem um significado útil, mas não fornece, por si só, uma integração que possa nos ajudar a inferir mais conhecimentos. O conhecimento representa um padrão que se conecta e geralmente fornece um alto nível de previsibilidade quanto ao que é descrito ou o que acontecerá a seguir.</p>
+<p>O <strong>entendimento</strong> é um processo cognitivo e probabilístico. É o processo pelo qual podemos sintetizar novos conhecimentos a partir dos conhecimentos anteriormente mantidos. A diferença entre entendimento e conhecimento é a diferença entre “aprender” e “memorizar”. As pessoas que têm entendimento podem realizar ações úteis porque podem sintetizar novos conhecimentos ou, em alguns casos, pelo menos novas informações, daquilo que é conhecido ou entendido anteriormente. Ou seja, o entendimento pode se acumular nos dados, nas informações, no conhecimento e no próprio entendimento.</p>
+<p>A <strong>sabedoria</strong> é um processo extrapolativo, não determinístico e não probabilístico. Invoca todos os níveis anteriores de consciência e é onde os <a href="https://alfakini.com/essays/sistemas-de-ideias/" target="_blank" rel="nofollow noopener noreferrer">sistemas de ideias</a> como moral e princípios são articulados. Ao contrário das quatro categorias anteriores, nesta categoria fazemos perguntas para as quais não há resposta facilmente alcançável e, em alguns casos, para as quais não pode haver um período de resposta possível. Enquanto o conhecimento nos garante certezas, a sabedoria então nos da clareza sobre as coisas. É com a sabedoria que resolvemos as perguntas para as quais não existe uma resposta certa. A sabedoria é, portanto, o processo pelo qual também discernimos, ou julgamos, entre o certo e o errado, o bem e o mal.</p>
+<p>Podemos ainda visualizar o entendimento como um processo contínuo e cumulativo. Gene Bellinger define o entendimento como um processo que suporta a transição entre cada nível de consciência sobre os conteúdos. Para ele, o entendimento é um eixo separado em si só:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/eb74049328e7065c274c9d8632b8f5a8/f470a/cascata-gene-bellinger.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 77.70270270270271%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd5Khkh//8QAGRAAAQUAAAAAAAAAAAAAAAAAAAEQESFB/9oACAEBAAEFAseiUP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EAB0QAAICAQUAAAAAAAAAAAAAAAERACEQQVHR8PH/2gAIAQEAAT8hBpupejwCEOIw8nZT/9oADAMBAAIAAwAAABBDz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQXGR/9oACAEBAAE/EKuwGLlpXA9gUbX2M5lFlswI1g9QbS/U/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Pirâmide de Ackoff"
+        title="Pirâmide de Ackoff"
+        src="/static/eb74049328e7065c274c9d8632b8f5a8/1c72d/cascata-gene-bellinger.jpg"
+        srcset="/static/eb74049328e7065c274c9d8632b8f5a8/a80bd/cascata-gene-bellinger.jpg 148w,
+/static/eb74049328e7065c274c9d8632b8f5a8/1c91a/cascata-gene-bellinger.jpg 295w,
+/static/eb74049328e7065c274c9d8632b8f5a8/1c72d/cascata-gene-bellinger.jpg 590w,
+/static/eb74049328e7065c274c9d8632b8f5a8/a8a14/cascata-gene-bellinger.jpg 885w,
+/static/eb74049328e7065c274c9d8632b8f5a8/fbd2c/cascata-gene-bellinger.jpg 1180w,
+/static/eb74049328e7065c274c9d8632b8f5a8/f470a/cascata-gene-bellinger.jpg 4545w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>O processo de agrupar dados, informações e conhecimento aumenta o nosso entendimento sobre as coisas, e cada novo dado, informação ou conhecimento, se agrega confirmação sobre nosso entendimento. Se você nunca viu algo, nunca teve experiência com algo, provavelmente vai apenas interpretar ruídos, os quais serão descartados pelo seu cérebro.</p>
+<p>Precisamos aprender então a distinguir o que é um padrão de conhecimento útil do que é ruído. Quando não existem algum fundamento para conectarmos e criarmos padrões, não existe a possibilidade de criar conhecimento, e teremos apenas, ruído.</p>
+<p>Existe uma ordem ótima em que os conteúdos podem ser apresentados para que o desenvolvimento dos padrões seja facilitado, e a função de um professor deveria estruturar essa ordem. O professor não é alguém que “ensina”, mas alguém que ordena o conteúdo para facilitar o processo de aprendizagem dos estudantes.</p>
+<p>Existe uma imagem famosa na internet que demonstra a formação desses padrões. Infelizmente não sei a autoria da imagem, mas ela está frequentemente associada a discussões sobre inteligência artificial e big data. Abaixo, apresento uma versão modificada que criei para demonstrar o desenvolvimento de entendimento sobre um conteúdo:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/865c7482402c043f83b2e5e05885f5bc/cec2e/data-info-knowledge-wisdom.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd1VIxh//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQABBQJf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAAIDAAAAAAAAAAAAAAAAAQAQESFB/9oACAEBAAE/IWZ3Bo7X/9oADAMBAAIAAwAAABDQD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQACAQUAAAAAAAAAAAAAAAEAEVEQITGRsf/aAAgBAQABPxBFNJ3LVbKrMYHc5zp7Qn//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Data, Information, Knowledge, Wisdom"
+        title="Data, Information, Knowledge, Wisdom"
+        src="/static/865c7482402c043f83b2e5e05885f5bc/1c72d/data-info-knowledge-wisdom.jpg"
+        srcset="/static/865c7482402c043f83b2e5e05885f5bc/a80bd/data-info-knowledge-wisdom.jpg 148w,
+/static/865c7482402c043f83b2e5e05885f5bc/1c91a/data-info-knowledge-wisdom.jpg 295w,
+/static/865c7482402c043f83b2e5e05885f5bc/1c72d/data-info-knowledge-wisdom.jpg 590w,
+/static/865c7482402c043f83b2e5e05885f5bc/a8a14/data-info-knowledge-wisdom.jpg 885w,
+/static/865c7482402c043f83b2e5e05885f5bc/fbd2c/data-info-knowledge-wisdom.jpg 1180w,
+/static/865c7482402c043f83b2e5e05885f5bc/cec2e/data-info-knowledge-wisdom.jpg 5871w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Nós sempre estaremos lidando com conhecimento incompleto, ou então com falta de informação ou dados  com pouco valor. A rede que se forma na nossa cabeça relacionando esses conteúdos seria mais como o representado abaixo, onde mesmo fragmentos de dados podem facilitar o surgimento de um insight ou criação de uma rede de conhecimento:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6721793caabacbf19b4bbc1f4e7b7b8a/593b8/data-info-knowledge-wisdom-together.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 135.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3DJ0QZnWBR//EABgQAAMBAQAAAAAAAAAAAAAAAAABESAx/9oACAEBAAEFAsQXHSZ//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFhABAQEAAAAAAAAAAAAAAAAAIFEQ/9oACAEBAAY/Ahdh/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBEFH/2gAIAQEAAT8hbvH3MbHdkIqc7GluU7Ln2mRrGIgvpd69rz//2gAMAwEAAgADAAAAECAJAP/EABURAQEAAAAAAAAAAAAAAAAAAAEg/9oACAEDAQE/ECP/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEBAAMBAAMBAAAAAAAAAAABEQAhMUEQcbHR/9oACAEBAAE/EEgV4S8M2qkOcT+5U3+4QIHjshe4Q10Qiw8LC5UQihp6aygIBom1frLWEJLT4bwvvxBzAz//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Data, Information, Knowledge, Wisdom together"
+        title="Data, Information, Knowledge, Wisdom together"
+        src="/static/6721793caabacbf19b4bbc1f4e7b7b8a/1c72d/data-info-knowledge-wisdom-together.jpg"
+        srcset="/static/6721793caabacbf19b4bbc1f4e7b7b8a/a80bd/data-info-knowledge-wisdom-together.jpg 148w,
+/static/6721793caabacbf19b4bbc1f4e7b7b8a/1c91a/data-info-knowledge-wisdom-together.jpg 295w,
+/static/6721793caabacbf19b4bbc1f4e7b7b8a/1c72d/data-info-knowledge-wisdom-together.jpg 590w,
+/static/6721793caabacbf19b4bbc1f4e7b7b8a/a8a14/data-info-knowledge-wisdom-together.jpg 885w,
+/static/6721793caabacbf19b4bbc1f4e7b7b8a/fbd2c/data-info-knowledge-wisdom-together.jpg 1180w,
+/static/6721793caabacbf19b4bbc1f4e7b7b8a/593b8/data-info-knowledge-wisdom-together.jpg 3437w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>É como se nós vivêssemos com certezas provisórias razoáveis. Nunca teremos o mapa completo em que estamos navegando, mas podemos compor conhecimento o suficiente para conseguir navegar razoavelmente bem por ele.</p>
+<p>Agora que já conceituamos as diferentes categorias de conteúdo, seu valor e como se relacionam, a pergunta que fica é: como nós podemos acelerar a criação de conteúdos com mais valor? Que hábitos e ferramentas podemos usar para nos ajudar a conectar os conteúdos?</p>
+<h4>Adquirindo sabedoria</h4>
+<p>Podemos dizer que existem duas formas de adquirir sabedoria: vivenciando experiências e ativamente refletindo sobre conteúdos.</p>
+<p>Apenas vivenciar situações e ter experiências não é suficiente para adquirirmos sabedoria. Precisamos colocar alguma energia refletindo sobre o que aconteceu, pensando sobre como poderia ter sido melhor e desenvolvendo uma estrutura cognitiva coerente. A pessoa que viveu mais geralmente é mais sábia porque durante a vida ela estruturou um arcabouço de tomada de decisões, mas nem todo mundo que é velho é sábio. Para ser sábio é necessário ter passado muito tempo refletindo sobre como se toma decisão.</p>
+<blockquote>
+<p>I cannot make you understand. I cannot make anyone understand what is happening inside me. I cannot even explain it to myself. ― <a href="https://www.goodreads.com/book/show/485894.The_Metamorphosis" target="_blank" rel="nofollow noopener noreferrer">Franz Kafka, The Metamorphosis</a></p>
+</blockquote>
+<p>Se a sabedoria é onde os sistemas de ideias como ideologia, moral e princípios se revelam, então além de viver e refletir sobre o que vivemos, a outra forma de adquirimos sabedoria é refletirmos sobre quais são nossos dogmas, quais são nossos princípios e valores.  O pesquisador Jordan Peterson sintetizou as ideias de Carl Jung sobre os sistemas de ideias da seguinte forma:</p>
+<blockquote>
+<p>People don’t have ideas. Ideas have people. ― <a href="https://www.youtube.com/watch?v=XieOdyVThLU" target="_blank" rel="nofollow noopener noreferrer">Jordan Peterson sobre Carl Jung</a></p>
+</blockquote>
+<p>Como seres humanos, nosso problema não é termos nossas crenças, mas sim deixarmos que elas tomem conta de nossas vidas e guiem nossos pensamentos, palavras e ações. Não é problema termos nossas preferências ideológicas, mas precisamos entender que o mundo concreto é complexo de mais para ser reduzido a esses modelos ideais.</p>
+<p>Se todos nós fazemos parte de um sistema de ideias, a forma de não sermos reféns dessas ideias, a forma de nós tentarmos possuir elas ao invés delas nos possuírem, é constantemente criticar essas ideias.</p>
+<blockquote>
+<p>Learning, thinking, and writing should not be about accumulating knowledge, but about becoming a different person with a different way of thinking. This is done by questioning one’s own thinking routines in light of new experiences and facts. ― Sönke Ahrens</p>
+</blockquote>
+<p>Ferramentas que podem ajudar nesse exercício: ler autores com ideias contrárias as suas. Ler autores que reconhecem as limitações de suas próprias ideias. Conversar com pessoas que possuem ideias diferentes. Escutar e refletir sobre as histórias de vida dos outros, ou ler sobre elas. Tirar um momento para refletir sobre suas crenças, princípios e valores. Anotar essas ideias para que você possa desenvolver um entendimento sobre elas.</p>
+<h4>Organizando informações para criar conhecimento</h4>
+<p>O conhecimento pode ser categorizado como implícito ou explícito. À medida que adquirimos experiência sobre algo, desenvolvemos habilidades e criamos conhecimento implícito. Ele é implícito porque não é armazenado de alguma forma fácil de ser acessado ou indexado fora do agente que desenvolveu o conhecimento. Já o conhecimento explícito é acessível, pode estar em papel ou em formato digital. Exemplos desse tipo de conhecimento incluem anotações, guias de boas práticas, livros e mapas conceituais.</p>
+<p>Nos anos 1960 viveu um alemão chamado Niklas Luhmann que pode nos fornecer um framework de estruturação de conhecimento. Ele era formado em direito, mas estava mais interessado em estudar sociologia. Todos os dias, depois do trabalho, ele se trancava em sua sala e estudava. Até aí, normal, muitas pessoas têm alguns hobbies ao qual se devotam no seu tempo livre. O que é diferente sobre Luhmann é a forma como ele organizava as informações que coletava.</p>
+<p>Ele escrevia todas as suas anotações em pequenos pedaços de papel. A organização era simples: ele escrevia o conteúdo da nota no centro do papel e colocava um número de indexação no canto superior esquerdo. Esse número o ajudava a se referir as suas notas em outras notas. Na parte de trás do papel, ele fazia anotações sobre suas interpretações pessoais.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/9bbdca74c59f8167e7ce0ad63664ce77/75a80/luhmann-note.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.94594594594594%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC9UlEQVQozx2T3W/aZhSH/UdX2uWkSZ267WK9aDWtbVrUdQkNNGQJTYmLIcbG9vva2H7x9xf+xubDYAjp0qQL8yadi3PznOenn3Sw+svHeOugd1a7PDm4atekfn1MvlfopkY3TbZlw7+8UdsX2/8v5xH6GKELRzjNjU/PfvoOkwZ1BRK60B8DwkXUl0xODCbShpnFzj2QuyAxYREI23Q097nUZhKT0oXOfEK9f/0EQ1Rz5jKFDzS+xw/wzGYF+jMgL0Wma4qkg2gXDcewP+YJC/XhoK3BtqcQuUsdvvgRU5mT/Ua7qQ673HICKoOvsZZEJRaw0TBxhF02XsfidiptpqMiBKuYKxNuX47rB08w6aq+jZgy4pbhaBmMqtgVHBhcbIKJxvk6l0/EqctZYseSOp7SDY1eqOPblDk6+Bnje4czuzd3aU9hPJUpYzkyQGLzMriKTFCZfZ2PTJh7bD5h5wG7m8u7mbi/Nj4cPsNGZOPbSl2FvIXoiQZSVwh0aMmspwELDWe+uE7UMhlvMuU6R7uZXGbSeircr5XTo+cYX8FrdZOKoQkDA6oCHVtCaIqxPdIlehmh3JMTR3R1GDowsoEmD3V5YCHq1fNfMIFs3BfqLpNjk6pqDzQq0OjMBZkLQ4PNPJiYzNzn16mYOLSv93Spa6HPmcce1Z5ioP8ffJPL8wk389gyHnmICPXB1GYWPrzOUJnIu1wtU7lIxUUkRDYdO/TXFTo7/g2j8aP7QkusQRHyFV+EQmIOI4NOjEHmMJnLbqfKKpZnPkxcehHyjkpGNrO/m3Rar7DB5bvbxTi1qFDrB2rPkfDKGaikDi8qv6+SoUZ5qGdKuCXhrtL1dcJTu9ts1PjjKQb7x/sv7sO1c7fSvy6UmwzdLrTUpOYet/TBLkcPG/euMB429sPf3j8767ZQ7kpt/80nzl9jL3/9QSJPWOIY9puAaDB4g/xUx1u1zsmbai5bNeL8z6uLw/7Hd0T7LV79z+mbdvP37lnt8feP/gWxa6wFPggJawAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Luhmann Note"
+        title="Luhmann Note"
+        src="/static/9bbdca74c59f8167e7ce0ad63664ce77/fcda8/luhmann-note.png"
+        srcset="/static/9bbdca74c59f8167e7ce0ad63664ce77/12f09/luhmann-note.png 148w,
+/static/9bbdca74c59f8167e7ce0ad63664ce77/e4a3f/luhmann-note.png 295w,
+/static/9bbdca74c59f8167e7ce0ad63664ce77/fcda8/luhmann-note.png 590w,
+/static/9bbdca74c59f8167e7ce0ad63664ce77/efc66/luhmann-note.png 885w,
+/static/9bbdca74c59f8167e7ce0ad63664ce77/75a80/luhmann-note.png 1134w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Luhmann escreveu milhares de notas e organizou elas pelo seu sistema de indexação em pequenas gavetas. Ele nunca estudou sociologia formalmente, mas usando suas notas e seu sistema de indexação, foi capaz de contribuir para essa área de conhecimento de uma forma tão relevante que se tornou professor de sociologia.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0018a5720c2e872e545382d8d4a07b62/eea4a/luhmann-zettelkasten.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 67.56756756756756%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAF90wLahwo//8QAGhAAAwEBAQEAAAAAAAAAAAAAAQIDABMEEv/aAAgBAQABBQLu27MctGOfzkYSo6xn8L//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREi/9oACAEDAQE/AcjlP//EABcRAAMBAAAAAAAAAAAAAAAAAAABESL/2gAIAQIBAT8B0Kw//8QAGRAAAwADAAAAAAAAAAAAAAAAAAERAhAh/9oACAEBAAY/AtvKi6oRn//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExgZH/2gAIAQEAAT8hO9lQdQnsDvPkPoIbVsxGHN2cUW7n/9oADAMBAAIAAwAAABDz3//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEVH/2gAIAQMBAT8QziYWF//EABcRAAMBAAAAAAAAAAAAAAAAAAABEXH/2gAIAQIBAT8Q0xYVn//EABoQAQEBAQADAAAAAAAAAAAAAAERACFBUWH/2gAIAQEAAT8Q4WNxIXdicvAZH1jLiucxB50zKLL4fsyKinQr63//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Luhmann Zettelkasten"
+        title="Luhmann Zettelkasten"
+        src="/static/0018a5720c2e872e545382d8d4a07b62/1c72d/luhmann-zettelkasten.jpg"
+        srcset="/static/0018a5720c2e872e545382d8d4a07b62/a80bd/luhmann-zettelkasten.jpg 148w,
+/static/0018a5720c2e872e545382d8d4a07b62/1c91a/luhmann-zettelkasten.jpg 295w,
+/static/0018a5720c2e872e545382d8d4a07b62/1c72d/luhmann-zettelkasten.jpg 590w,
+/static/0018a5720c2e872e545382d8d4a07b62/a8a14/luhmann-zettelkasten.jpg 885w,
+/static/0018a5720c2e872e545382d8d4a07b62/fbd2c/luhmann-zettelkasten.jpg 1180w,
+/static/0018a5720c2e872e545382d8d4a07b62/eea4a/luhmann-zettelkasten.jpg 1280w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Com esse sistema, Luhmann foi capaz de transformar suas leituras em notas, notas em reflexões, reflexões em textos, textos em artigos científicos e artigos em livros. Ele publicou aproximadamente 2 livros por ano de vida!</p>
+<blockquote>
+<p>To get a good paper written, you only have to rewrite a good draft; to get a good draft written, you only have to turn a series of notes into a continuous text. And as a series of notes is just the rearrangement of notes you already have in your slip-box, all you really have to do is have a pen in your hand when you read. <cite>Sönke Ahrens</cite></p>
+</blockquote>
+<p>Ao invés de forçar a escrita com o objetivo de publicar um livro, o sistema de Luhmann possibilita que um livro emerja de suas anotações. Nome desse sistema é <a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank" rel="nofollow noopener noreferrer">Zettelkasten</a>.</p>
+<h5>O sistema Zettelkasten</h5>
+<p>O primeiro passo de praticamente qualquer jornada intelectual é fazer anotações sobre o que está se aprendendo. Escrever anotações é fundamental para a maneira como aprendemos, desenvolvemos ideias e, por fim, criamos. Para qualquer trabalhador do conhecimento, sejam desenvolvedores de software, artistas, designers, cientistas ou engenheiros, é fundamental ter um sistema de anotações. Abaixo, um exemplo de como anotações nesse sistema podem se conectar:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/37e27f9170e5e394ff30cae6ee122281/eaf4a/notes-network.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.21621621621621%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCklEQVQoz21SaU8UQRCd//8jSBRkRUk8dhdERBYCRBZhNUoMH1XE2dnp6fuoPq1hMZ7vQ6fzUq+q6/Wryi1y9t6elXCaYarZBMxlKcmb8+JPE5wpdmDVR2SynyV4g0z20xKvKlSGkIRokx3xxRqpV0W7Et1rKanXY0HWyfdV1qxkOMDCEkZOPujq+9k9LGFSheA5FzFYLQ5Y+0J0e5rvBvc+Rq/5hC6Gkr7UfDu4WSlYdajZSLNtr7eyP6+EECEEnO/MDVl8IosrcF9imOMqxlgpZV3XzrkQI9Z4sEYL5zQumXPsxcimJJIdJrtp+YZlA6+GpQDyADCfz8sdQoaTaF8l2E92t4RZJWUvdvbasMes2aDNgDdrBbZwjHOeMbrsfgsfzBh96eo1Se5lP6mUklo7rb4a/kyQJ4aPQD4FfSxkj5QSnj/F0ekLRia0PSTNntOXVdd1xhjc0DluDZWi7cg3IejSiJzzb5NxO/ya4n0CwLalIoQIsewd0WElWc4oS7fKkktRSveXfBeI8gu5Qidvbmpwndf4AWPLh4JsgnmH1V4fJ7vj1I7shkYc/ans0YdEKUPI5xKfa/aIt+sFBgmm1kKJe6A2MCQJIxF38Wl/i/PyQRkombbzE0HfGnkR4Bo5LWddsy/osaBHYD78f/LSmBCLsXHRcsoM5xp96jrRNGgopqi36l/8AH+e2wu/iSP0AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Notes Network"
+        title="Notes Network"
+        src="/static/37e27f9170e5e394ff30cae6ee122281/fcda8/notes-network.png"
+        srcset="/static/37e27f9170e5e394ff30cae6ee122281/12f09/notes-network.png 148w,
+/static/37e27f9170e5e394ff30cae6ee122281/e4a3f/notes-network.png 295w,
+/static/37e27f9170e5e394ff30cae6ee122281/fcda8/notes-network.png 590w,
+/static/37e27f9170e5e394ff30cae6ee122281/efc66/notes-network.png 885w,
+/static/37e27f9170e5e394ff30cae6ee122281/c83ae/notes-network.png 1180w,
+/static/37e27f9170e5e394ff30cae6ee122281/eaf4a/notes-network.png 4915w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Não basta apenas tomar notas, precisamos articular as ideias que estamos aprendendo usando nossas próprias palavras e criar conexão com outros conteúdos que já aprendemos. Como vimos, o conhecimento surge a partir da identificação de padrões que emergem de redes de informações. Se isso acontece de forma orgânica dentro da nossa cabeça, por que não replicar esse sistema usando algum sistema analógico ou digital?</p>
+<p>Foi o que Luhmann fez quando desenvolveu seu sistema de anotações usando pedaços de papéis indexados. As anotações não devem servir apenas como uma maneira de coletar, seu objetivo é promover resultados criativos e inovadores. Com um arquivo de anotações indexadas e comentários sobre o que entendemos sobre aquele pedaço de conteúdo, montamos o nosso Zettlekarten, ou no português: sistema de gerenciamento de conhecimento.</p>
+<p>Se você não lê apenas por entretenimento, ler sem tomar notas é, em grande parte, um desperdício de tempo. Muito pouco do que lemos é absorvido se nós não exercitamos de forma prática, se não elaboramos ideias novas em cima do conteúdo ou se nós não o relacionamos com outros conteúdos. Sem um sistema de prática deliberada ou de processamento do conteúdo, você acaba por ser apenas um <a href="https://zettelkasten.de/essays/collectors-fallacy/" target="_blank" rel="nofollow noopener noreferrer">colecionador de informações</a>.</p>
+<p>Com as anotações devemos buscar capturar o que nos interessa. Quando você se obriga a fazer anotações sobre o conteúdo, e não apenas marcar um trecho do livro ou artigo, vai perceber que muitas vezes não entendeu um determinado conceito, ou aquele conteúdo que parece ser importante ser destacado na verdade não é tão importante assim. Ao fazer anotações, externalizamos a memória e aprendemos. Essas anotações podem ser feitas nas margens dos livros, ou em pedaços de papéis. Se você está escutando um audiobook, é possível também fazer gravação de mensagens de voz como anotações para um determinado trecho. Se você estiver lendo um artigo na internet, é possível usar aplicativos como <a href="https://app.getpocket.com/" target="_blank" rel="nofollow noopener noreferrer">Pocket</a> e <a href="https://web.hypothes.is/" target="_blank" rel="nofollow noopener noreferrer">Hypothesis</a> para fazer anotações.</p>
+<blockquote>
+<p>I write because I don’t know what I think until I read what I say. <cite>Flannery O’Connor</cite></p>
+</blockquote>
+<p>Aprender é trabalhoso. Para aprender algo, dominar certo conteúdo e cultivar uma rede complexa de ideias, precisamos elaborar o que estudamos. Alguns pensadores dizem que o aprendizado não acontece em nossas cabeças, ele acontece quando escrevemos, desenhamos ou criamos qualquer coisa. <a href="https://fs.blog/2012/04/feynman-technique/" target="_blank" rel="nofollow noopener noreferrer">Feynman</a> por exemplo, sempre defendeu que aprender algo significa que você é capaz de apresentar as ideias que está estudando para alguém leigo no assunto. Fazer isso, requer conectar conteúdos diversos, muitas vezes não obviamente relacionados, ou criar abstrações.</p>
+<p>Após termos feito anotações nos conteúdos, devemos processar essas anotações para transformá-las em anotações permanentes. Neste passo, devemos usar um sistema de anotações digital para facilitar a indexação do conteúdo. Ao anotarmos, devemos cuidar para não apenas reformular em forma mais curta o que lemos ou aprendemos, mas sim conectar essas anotações com ideias e outras anotações que já fizemos. O objetivo não é coletar, mas desenvolver ideias, argumentos e discussões. As notas permanentes são o ponto de partida entre nossas notas do que lemos e nossa eventual produção criativa. Nesse momento, se pergunte: as novas informações contradizem, corrigem, apoiam ou aumentam o que eu já sei? Posso combinar ideias para gerar algo novo? Que perguntas são desencadeadas pelo conteúdo?</p>
+<p>Escreva exatamente uma nota para cada conteúdo ou aprendizado como se estivesse escrevendo para outra pessoa: use frases completas, apresente as fontes, faça referências e tente ser o mais preciso, claro e breve possível.</p>
+<p>No meu sistema de anotações eu uso hashtags para indexar o conteúdo. Tenho, por exemplo, uma hashtag especial onde referencio um conteúdo pela pessoa a qual ele se relaciona, filme, música, local ou algum conceito. Eu também uso links entre notas que se relacionam. Para esse texto, por exemplo, usei as seguintes hashtags:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/687e79434c24c18a39c6398475367048/cda19/note-tags.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 74.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSUlEQVQ4y5WU6VJaQRCF7/s/Qn6YmIiSsMgWQFFAFhFCRNlXFSUCVmQRBFlP5jRLScVUGaq+6js9c5vTy1wtVyzD6vTg6uYW/I1HIwyHQ7y8vAgjtV7Z96BdpnPQm+zw+EPI5ItoNB8k8Gw2XQd7LxLwvt5EMpNT5PEjkUT56gbVuxqqtzVROp1OMJmMFcqOl/YNxmqPQbXafR0XqSzSuQJSKigVx1Xg88s06o0HtNsdPLZaijbanY7Yv3hs4anXWyjM5Iow292wu48ROI2BNS2UKiiWr5BIZjbgWf7Rax/FxBMpUNh8PoP2q95AUqlKZwvSmJWKTqeLbvcJnW53DfeopNfrb/h5dpWBxtrtqaaYbC4YLE7oDFbsGq2wuY6gNzuwpTNge8+Ez3ozPqpnniFbO8qvfNzjOzvfLFIqLfrzAh+29fLCl6/7+LRrFMugzkMffMEIvIFTnISj8Cv4TI78YXh8IbiPTpDK5vFb1bGn1Gv1RlMakVIpp5ckl83hIRa6339e8LxEPc9nM2z85vNFU9hdk80tKZJ9x4EMuuX7oTTKqnxGq0tYpcsSxZcjxtllDPaCsysK6cgWSgIPsJukVLler7Ov/PliRSxTZSbsPNct1RiNCxZbZ7BI7QjVOD0+UWlUzWIGJrEuOA68gnG5JtF4QsTwQmiUzcJzBok/dCabHBnWcHOIW2i12+tBXzEYDKSmvDHadfVOAkVi5wifxeX6sbjTf1yxtxjJB2Vxn7WSUugNRBCMxGQ0gio4VfBuDv/zw0D7B2ShMX8P0fUiAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Note tags"
+        title="Note tags"
+        src="/static/687e79434c24c18a39c6398475367048/fcda8/note-tags.png"
+        srcset="/static/687e79434c24c18a39c6398475367048/12f09/note-tags.png 148w,
+/static/687e79434c24c18a39c6398475367048/e4a3f/note-tags.png 295w,
+/static/687e79434c24c18a39c6398475367048/fcda8/note-tags.png 590w,
+/static/687e79434c24c18a39c6398475367048/cda19/note-tags.png 785w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Existem alternativas que estão explorando melhor a associação de conteúdos e sistematizando o Zettelkasten. Os dois pelos quais estou interessado são o <a href="https://roamresearch.com/" target="_blank" rel="nofollow noopener noreferrer">Roam Research</a> e o <a href="https://obsidian.md/" target="_blank" rel="nofollow noopener noreferrer">Obsidian</a>. Infelizmente o sistema que uso atualmente, baseado no <a href="https://bear.app/" target="_blank" rel="nofollow noopener noreferrer">Bear App</a>, não possui links bidirecionais. Links bidirecionais são interessantes para que você consiga navegar de uma nota para a outra. Ao referenciar uma nota, automaticamente a nota referenciada também cria um link de referência. Isso me da um certo trabalho porque tenho que ficar criando os links manualmente.</p>
+<p>O fato de termos essas anotações indexadas e relacionadas faz com que o nosso sistema de processamento de conteúdo comece a nos ajudar a aprender e a criar. Por criar, eu quero dizer: escrever textos originais, compor músicas, fazer arte, rever conceitos. Ele nos ajuda a rapidamente revisitar conteúdo consumido no passado para reativar as memórias. Antes de escrever esse texto que você está lendo, eu fiz uma apresentação informal na empresa sobre sistemas de anotações e “network-thoughts”. Para essa apresentação, apenas adicionei a hashtag #@magrathealabs/bbl às notas que eu achei que eram interessantes para o evento:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1bb5b97252bbd070b4f9ea9cd68e4518/3d405/notes-bear.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 110.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFVklEQVQ4y01UaW9UZRSeX6GRQvfSlqZsLQU0fqofTIwkopCihTJtMcEYEz+4TKIJNH7RBIERg6KJpjiSUFoEKktQUtp0dYC2tLOVztLOneXOvXf27b6d9/G8F4pOcnLuMu9zn3POcx5TY/PWzobmrdde3Lip/+Chd22JRMIWCoVssVjMJsuyLR7XbJqm2iKRiBHxeNz4z/8jmUz2q6p6dX5+fr+pZnPDhe0trSirqMJ7R7qQSqUQCARAB5HNZBBYDWLB4QQdMt4Vi0UUdf1pfhY63efzebhcrm9MVTV1p7e3tmFTeWW+x9zNVC3O3B4PU5QYSyTi7OHcArs/Ps0icoytBEMsk8kyAmGFQuF50H0+l8vB4XCcMNXUN55tIYYt5WX6MbOZJ4iFw+lENBqBpmmYfezA71eu49Lgddz5exSpdNpgREAGO8pcfEAw9Hq9faZtrW3W9vZ27Nlco3/U28PTmSyoV0jTwXQ6ReW6MfDHTdy6O4KlZR+y2ew60HrwZ4wRDof7RMlWUXJNQ5N+tLuH53J5RKJRKIoCajSo6cQ2aoSiqBClFQp5FIiRkQt5TsHEPQ2zz1TXsMXasms3NpZX6uaeXu7zejE2NiboQ5ZjSKbSkGMKYmocajxBA1kDK3GscVAG1krgbI1TH3VIkiQAG627du/FCxs26t297/Pp6WmMjNzH8PAwnC4XkgkNgSdOeB2zCLjnsfpkEbLkh7yyBCW4jFhwmWvRIMukEghHIn2m2voG6w4qubyqRj/cZebZXAaxsASNSs4UGCauWPHDsZ1wTt6C5Hfh4qev40xHJQZOdiDk9+DB7X5+rmsLm793GakC7zNtbmyytu19BbX1jbq5t5dLgSiGRh7C4VuCqmVw94IF104dR0jOwDFmxz83f8O3nTvgnptCXM0iFpD4rx+3s8mhc8hyCMAtBuDGimrdfKyH+5wSvvjlNqY8j6DICkb6v4LHfg+PJRUToxMI+wMYv3UDUTkB7aEdyZDKZ4bOs6mr3yMnAKvr6q07aSiVNXVGyclkAstuJ8KShGyxhDvnP8FfP30JeyyOUdcKpv4cwLkTx+FccMD34BFcsy5++WQnGx84jRwgethobWnbg4rqWr3L3M1z+RwC0ir8Kz4Ew2Es2f/G5PWfEaQPuJ74MHl3EDdt32FxbgZBUoHTs8Tv2U6xVacdSiLTZ6qnHrY+AzxytJvnSVtKXEEilYSiKsjmdaSzBUOTZBK0KRl6VjQEniHxZ7MZzjiYTvqRgkGSjWAodEg97Ow6yvP5AkJBmQA0JMgQhMCDq6ukSZk0mTKETjtuGEeGghaBM734n7BFyW17XkZlba3ebf6ABxIjGFM/RECdhs8vketoQrAgOzMcaD3Enj9lrXHKTDA2Vk+UvL1lFzaUV+idh808EFnEXOgKfMEFrARCBtAqMaSvG8DBYNDI60HvOGUm2BqA5IcGYBmt3v4DB3lUCtPkFuFd9iOmxAwPjBMb4YciRMnimbgWIMIcyGkMtzFKJsCzQocNTc36vrfe5isBLx8fvsRlKcBVJcbJdbgoi8p8ntevCVz0nJOdGW5jAJIOz2zb2So2Jf/OwQ4yWI35fT4mR0JMjkaZ+KXza6xUKjHOOWNrJZbMrTHhDZymm8jQQIp6oVg0AE+YSC4/CkDaZRzoOGQ0XDiNRllM1fA8JhyGbIWXUCKnYaxIFpOlyBs9FT3OkQdQ/tpUXlX9WlPztr6XyjZ99sab+ywzMzOWq0ODFrvdbnG7XZbpmQeWwdFpy9Si07LscVvcnmXL0uwNi3vcavFMXrR4HI8sTpf788XFxyfHxyde/RedHmxTOAgFuwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Bear Notes"
+        title="Bear Notes"
+        src="/static/1bb5b97252bbd070b4f9ea9cd68e4518/fcda8/notes-bear.png"
+        srcset="/static/1bb5b97252bbd070b4f9ea9cd68e4518/12f09/notes-bear.png 148w,
+/static/1bb5b97252bbd070b4f9ea9cd68e4518/e4a3f/notes-bear.png 295w,
+/static/1bb5b97252bbd070b4f9ea9cd68e4518/fcda8/notes-bear.png 590w,
+/static/1bb5b97252bbd070b4f9ea9cd68e4518/efc66/notes-bear.png 885w,
+/static/1bb5b97252bbd070b4f9ea9cd68e4518/c83ae/notes-bear.png 1180w,
+/static/1bb5b97252bbd070b4f9ea9cd68e4518/3d405/notes-bear.png 1348w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p>Outro dia entro em mais detalhes sobre o meu sistema pessoal de organização.</p>
+<p>Quando você começa a acumular certa quantidade de anotações, bem indexadas e bem referenciadas, você começa a compor conhecimento. Seu sistema de notas ganha um valor maior do que a soma individual de suas notas. Como essas anotações são processadas e discutidas, a cada nota que você adiciona ao sistema o valor dele cresce. É como se você estivesse desenvolvendo um “cérebro externo”, uma “segunda mente”.</p>
+<p>Com uma rede de anotações, fica fácil fazer conexões de ideias e obter insights, novas ideias simplesmente emergem. Fica fácil correlacionar conceitos que naturalmente seria difícil de fazer. Você começa a ver coisas que antes ficariam invisíveis. O interessante sobre o sistema de anotações pessoais é que ele tem valor apenas para quem fez as anotações, dado que elas representam de forma explícita o conhecimento implícito da pessoa. Essas anotações ganham valor para outras pessoas quando elas são transformadas em artigos ou outros tipos de escritos públicos.</p>
+<p>Parece contra intuitivo, mas quando estamos trabalhando com conhecimento, ou qualquer outro tipo de projeto criativo ou complexo, onde não temos uma boa resposta sobre as coisas, faz muito sentido em deixar que as ideias emerjam organicamente a partir de pequenos fragmentos, de baixo para cima, ao invés de tentarmos estabelecer verdades e buscar fragmentos que a validem.</p>
+<p>A medida que o sistema cresce, você vai criando novos mecanismos de organização. Para quem desenvolve software, o processo é similar ao de refatorar um sistema. Não temos como planejar e construir o sistema perfeito a priori, mas podemos usar um processo de desenvolvimento que nos ajuda a chegar no melhor sistema possível, um passo por vez.</p>
+<h4>Concluindo</h4>
+<p>Conceber uma ideia original pode levar anos e requerer muita energia. Seja um livro, um blogpost, um vídeo no YouTube ou um negócio. Criar é um processo, é como plantar uma semente e ver ela se transformar em uma árvore. Fazer anotações, discutir as ideias, indexar e fazer links pode dar a impressão de que você está indo muito lentamente, mas no médio e longo prazo você está acelerando a criação.</p>
+<p>Temos informação demais disponível, mas temos um déficit de ferramentas de sistematização de conhecimento e de educação sobre como fazer essa sistematização. Certamente não estamos ensinando nossos jovens a serem mais produtivos nesse processo.</p>
+<p>Me parece natural que alguns estudantes não tenham interesse pelo que estão aprendendo, já que não conseguem criar internamente essa rede de conhecimento. Como todo o conteúdo que recebem são fragmentos isolados, apenas interpretam como um ruído.</p></section><div><hr style="margin:30px 0"/><div style="display:flex;align-items:center"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:80px;height:80px;margin:0 20px 0 0;min-width:80px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEAv/EABcBAQEBAQAAAAAAAAAAAAAAAAIBAAP/2gAMAwEAAhADEAAAAdGLueFcZk0odDRBv//EABsQAAICAwEAAAAAAAAAAAAAAAEDAAIRIjNB/9oACAEBAAEFAoNXxrRUeJOF2JlSRVPP/8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQMBAT8BKf/EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQMREhQv/aAAgBAQAGPwI26Fb0UYWLEP/EABoQAQADAQEBAAAAAAAAAAAAAAEAESExEFH/2gAIAQEAAT8hCFVo3bcrwBXjJS4TKJdIgtd7MSp3fdn/2gAMAwEAAgADAAAAEDjnfP/EABgRAQADAQAAAAAAAAAAAAAAAAABESEx/9oACAEDAQE/ELprqUP/xAAXEQEBAQEAAAAAAAAAAAAAAAABABAx/9oACAECAQE/EDBPb//EAB0QAQADAQACAwAAAAAAAAAAAAEAESExQVFhcaH/2gAIAQEAAT8Q0gjrK+hcPV8lCWbHuKqgzfmapjhQpcQuUwHh2v2Wo2NfceOh5eEW7WyXy3P/2Q==" alt="Alan R. Fachini" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/e3ba4aa2b35a76c4df65fd38dcd39343/2b9ee/profile-pic.jpg 1x,
+/static/e3ba4aa2b35a76c4df65fd38dcd39343/76539/profile-pic.jpg 1.5x,
+/static/e3ba4aa2b35a76c4df65fd38dcd39343/e5d64/profile-pic.jpg 2x" /><img loading="lazy" width="80" height="80" srcset="/static/e3ba4aa2b35a76c4df65fd38dcd39343/2b9ee/profile-pic.jpg 1x,
+/static/e3ba4aa2b35a76c4df65fd38dcd39343/76539/profile-pic.jpg 1.5x,
+/static/e3ba4aa2b35a76c4df65fd38dcd39343/e5d64/profile-pic.jpg 2x" src="/static/e3ba4aa2b35a76c4df65fd38dcd39343/2b9ee/profile-pic.jpg" alt="Alan R. Fachini" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p style="margin:0">Written by <strong>Alan R. Fachini</strong>, founder of<!-- --> <a href="https://www.magrathealabs.com">Magrathea Labs</a> and<!-- --> <a href="https://www.fablabjoinville.com.br">Fab Lab Joinville</a>.<!-- --> <a href="https://twitter.com/alfakini">Follow on Twitter</a>.</p></div></div></article></main><footer class="sans" style="text-align:center;margin:100px 0"><a href="https://alfakini.com">alfakini</a> · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br/><a href="https://twitter.com/alfakini">twitter</a> · <a href="https://github.com/alfakini">github</a> · <a href="https://www.goodreads.com/user/show/10157034-alan&quot;">goodreads</a> · <a href="https://www.linkedin.com/in/alfachini">linkedin</a> · <a href="https://stackoverflow.com/users/732973/alfakini">stackoverflow</a> · <a href="https://www.discogs.com/user/alfakini">discogs</a> · <a href="https://instagram.com/alfachini">instagram</a> · <a href="https://alfakini.com/rss.xml">rss</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-9281876-3', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/essays/desenvolvendo-conhecimento/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-25b73876df0a2c080a82.js"],"app":["/app-0fe2b0a74c0fe06ff414.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-ad6431e4664bcf916d19.js"],"component---src-pages-404-js":["/component---src-pages-404-js-6f41a5e3707fac011fb1.js"],"component---src-pages-about-js":["/component---src-pages-about-js-d286f239b2967ceb119f.js"],"component---src-pages-essays-js":["/component---src-pages-essays-js-2895e5eb7885e030964b.js"],"component---src-pages-index-js":["/component---src-pages-index-js-ee5cb56b1e42c17d393d.js"],"component---src-pages-library-js":["/component---src-pages-library-js-31ef40df8a30c7d75f85.js"],"component---src-templates-essay-template-js":["/component---src-templates-essay-template-js-518212fbe86614499990.js"]};/*]]>*/</script><script src="/polyfill-25b73876df0a2c080a82.js" nomodule=""></script><script src="/component---src-templates-essay-template-js-518212fbe86614499990.js" async=""></script><script src="/c6c75317a5eb8a1474f3965d23c26c44c47412b2-30b0a902673079669494.js" async=""></script><script src="/app-0fe2b0a74c0fe06ff414.js" async=""></script><script src="/framework-cd3e1e804d552fa282ef.js" async=""></script><script src="/styles-e9d24b1846c7d6eb9685.js" async=""></script><script src="/webpack-runtime-5c74b6c09eac3c166434.js" async=""></script></body></html>
