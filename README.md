@@ -1,6 +1,6 @@
 # [alfakini.com](https://alfakini.com)
 
-![Gatsby Publish](https://github.com/alfakini/alfakini.github.io/workflows/Gatsby%20Publish/badge.svg)
+![Gatsby Publish](https://github.com/carlosvitr/alfakini.github.io/workflows/Gatsby%20Publish/badge.svg)
 
 ## Development
 
